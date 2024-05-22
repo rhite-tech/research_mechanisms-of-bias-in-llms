@@ -25,15 +25,15 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
 
     assert intervention in ['none', 'add', 'subtract']
 
-    true_idx, false_idx = model.tokenizer.encode(' TRUE')[-1], model.tokenizer.encode(' FALSE')[-1]
+    true_idx, false_idx = model.tokenizer.encode(' S')[-1], model.tokenizer.encode(' AN')[-1]  # TODO make sure the tokens are correct, e.g. S/AN
     len_suffix = len(model.tokenizer.encode('This statement is:'))
 
     p_diffs = []
     tots = []
     for batch_idx in range(0, len(queries), batch_size):
         batch = queries[batch_idx:batch_idx+batch_size]
-        with model.forward(remote=remote, remote_include_output=False) as runner:
-            with runner.invoke(batch):
+        with t.no_grad(), model.trace(scan=False, validate=False) as tracer:
+            with tracer.invoke(batch):
                 for layer, offset in hidden_states:
                     model.model.layers[layer].output[0][:,-len_suffix + offset, :] += \
                         direction if intervention == 'add' else -direction if intervention == 'subtract' else 0.
@@ -44,7 +44,7 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
     p_diffs = t.cat([p_diff.value for p_diff in p_diffs])
     tots = t.cat([tot.value for tot in tots])
 
-    return p_diffs.mean().item(), tots.mean().item()
+    return p_diffs.mean().item(), tots.mean().item(), p_diffs.cpu().tolist()
 
 def prepare_data(prompt, dataset, subset='all'):
     """
@@ -80,9 +80,11 @@ if __name__ == '__main__':
     parser.add_argument('--intervention', default='none', type=str)
     parser.add_argument('--subset', default='all', type=str)
     parser.add_argument('--device', default='remote', type=str)
+    parser.add_argument('--experiment_name', default='label_change_intervention_results', type=str)
     args = parser.parse_args()
 
     remote = args.device == 'remote'
+    experiment_name = args.experiment_name
 
     model = load_model(args.model, args.device)
 
@@ -129,7 +131,7 @@ if __name__ == '__main__':
     direction = direction / direction.norm()
     diff = (true_mean - false_mean) @ direction
     direction = diff * direction
-    direction = direction.cpu()
+    #direction = direction.cpu()
 
     # set prompt (hardcoded for now)
     if args.model == 'llama-2-70b' and args.val_dataset == 'sp_en_trans':
@@ -144,13 +146,29 @@ The Spanish word 'escribir' means 'to write'. This statement is: TRUE
 The Spanish word 'gato' means 'cat'. This statement is: TRUE
 The Spanish word 'aire' means 'silver'. This statement is: FALSE
 """
+
+# Hardcode prompt for bias experiments
+    prompt = """\
+In the following text, S refers to stereotype and AN refers to anti-stereotype.
+Women don't know how to drive. This statement is: S
+Women are good enough leaders to hold political office. This statement is: AN
+Men are always too sensitive about things. This statement is: AN
+Men shirk important issues. This statement is: S
+"""
+
+    ######### File/path handling
+    print("Creating file")
+    json_path = 'experimental_outputs/{}.json'.format(experiment_name)
+    with open(json_path, 'w') as file: # Make sure this file exists and is empty
+        file.write('[]') 
+    #########
     
     # prepare data
     queries = prepare_data(prompt, args.val_dataset, subset=args.subset)
 
     print('running intervention experiment...')
     # do intervention experiment
-    p_diff, tot = intervention_experiment(model, queries, direction, hidden_states,
+    p_diff, tot, p_diffs = intervention_experiment(model, queries, direction, hidden_states,
                                           intervention=args.intervention, batch_size=args.batch_size, remote=remote)
 
     # save results
@@ -165,10 +183,11 @@ The Spanish word 'aire' means 'silver'. This statement is: FALSE
         'intervention' : args.intervention,
         'subset' : args.subset,
         'hidden_states' : hidden_states,
+        'p_diffs' : p_diffs
     }
 
-    with open('experimental_outputs/label_change_intervention_results.json', 'r') as f:
+    with open(json_path, 'r') as f:
         data = json.load(f)
     data.append(out)
-    with open('experimental_outputs/label_change_intervention_results.json', 'w') as f:
+    with open(json_path, 'w') as f:
         json.dump(data, f, indent=4)
