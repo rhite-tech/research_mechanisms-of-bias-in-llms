@@ -48,9 +48,13 @@ def collect_acts(dataset_name, model, layer, noperiod=False, center=True, scale=
     """
     Collects activations from a dataset of statements, returns as a tensor of shape [n_activations, activation_dimension].
     """
-    directory = os.path.join(ROOT, 'acts', model)
+    directory = "/scratch-shared/tpungas/geometry-of-truth/acts/llama-13b/"  # TARMO REPLACED THIS WITH SCRATCH folder to save space
+    #directory = os.path.join(ROOT, 'acts', model)
     if noperiod:
         directory = os.path.join(directory, 'noperiod')
+    #if isinstance(dataset_name, list):
+    #    dataset_name = dataset_name[0]
+    #print("DEBUGGING TARMO:", directory, dataset_name)
     directory = os.path.join(directory, dataset_name)
     activation_files = glob(os.path.join(directory, f'layer_{layer}_*.pt'))
     if len(activation_files) == 0:

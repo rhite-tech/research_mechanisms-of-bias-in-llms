@@ -7,8 +7,9 @@ import argparse
 from generate_acts import load_model
 
 
-def patching_experiment(model_name, continuation_idx=None, device='remote'):
+def patching_experiment(model_name, continuation_idx=None, device='remote', experiment_name="patching_results"):
 
+    print("RUNNING EXPERIMENT {} WITH MODEL {}".format(experiment_name, model_name))
     model = load_model(model_name, device=device)
     layers = model.model.layers
     remote = device == 'remote'
@@ -28,7 +29,7 @@ The Spanish word 'escribir' means 'to write'. This statement is: TRUE
 The Spanish word 'diccionario' means 'dictionary'. This statement is: TRUE
 The Spanish word 'gato' means 'cat'. This statement is: TRUE
 The Spanish word 'aire' means 'silver'. This statement is: FALSE
-The Spanish word 'con' means 'one'. This statement is:"""
+The Spanish word 'uno' means 'floor'. This statement is:"""
     true_prompt = """\
 The Spanish word 'jirafa' means 'giraffe'. This statement is: TRUE
 The Spanish word 'escribir' means 'to write'. This statement is: TRUE
@@ -36,8 +37,16 @@ The Spanish word 'diccionario' means 'dictionary'. This statement is: TRUE
 The Spanish word 'gato' means 'cat'. This statement is: TRUE
 The Spanish word 'aire' means 'silver'. This statement is: FALSE
 The Spanish word 'uno' means 'one'. This statement is:"""
-
-
+    
+    ######### Tarmo added file/path handling
+    
+    json_path = 'experimental_outputs/{}.json'.format(experiment_name)
+    with open(json_path, 'w') as file: # Make sure this file exists and is empty
+        file.write('[]') 
+    
+    #########
+    
+    
     # check that prompts have the same length
     false_toks = model.tokenizer(false_prompt).input_ids
     true_toks = model.tokenizer(true_prompt).input_ids
@@ -46,17 +55,18 @@ The Spanish word 'uno' means 'one'. This statement is:"""
 
     # find number of tokens after the change
     sames = [false_tok == true_tok for false_tok, true_tok in zip(false_toks, true_toks)]
-    n_toks = sames[::-1].index(False) + 1
+    # n_toks = sames[::-1].index(False) + 1
+    n_toks = 10
 
     true_acts = []
-    with model.forward(remote=remote, remote_include_output=False) as runner:
+    with model.trace() as runner:
         with runner.invoke(true_prompt):
             for layer in model.model.layers:
                 true_acts.append(layer.output[0].save())
     true_acts = [act.value for act in true_acts]
 
     if continuation_idx is not None: # if picking up an experiment that failed
-        with open('experimental_outputs/patching_results.json', 'r') as f:
+        with open(json_path, 'r') as f:
             outs = json.load(f)
         out = outs[continuation_idx]
         assert out['model'] == model_name
@@ -71,10 +81,10 @@ The Spanish word 'uno' means 'one'. This statement is:"""
         }
         logit_diffs = [[None for _ in range(len(layers))] for _ in range(n_toks)]
         out['logit_diffs'] = logit_diffs
-        with open('experimental_outputs/patching_results.json', 'r') as f:
+        with open(json_path, 'r') as f:
             outs = json.load(f)
         outs.append(out)
-        with open('experimental_outputs/patching_results.json', 'w') as f:
+        with open(json_path, 'w') as f:
             json.dump(outs, f, indent=4)
         continuation_idx = -1
 
@@ -85,7 +95,7 @@ The Spanish word 'uno' means 'one'. This statement is:"""
         for layer_idx, layer in enumerate(model.model.layers):
             if logit_diffs[tok_idx - 1][layer_idx] is not None:
                 continue # already computed
-            with model.forward(remote=remote, remote_include_output=False) as runner:
+            with model.trace() as runner:
                 with runner.invoke(false_prompt, scan=True) as invoker:
                     layer.output[0][0,-tok_idx,:] = true_acts[layer_idx][0,-tok_idx,:]
                     logits = model.lm_head.output
@@ -94,7 +104,7 @@ The Spanish word 'uno' means 'one'. This statement is:"""
             logit_diffs[tok_idx - 1][layer_idx] = logit_diff.value.item()
             
             outs[continuation_idx] = out
-            with open('experimental_outputs/patching_results.json', 'w') as f:
+            with open(json_path, 'w') as f:
                 json.dump(outs, f, indent=4)
 
 if __name__ == '__main__':
@@ -102,6 +112,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, default='llama-2-70b')
     parser.add_argument('--continuation_idx', type=int, default=None)
     parser.add_argument('--device', type=str, default='remote')
+    parser.add_argument('--experiment_name', type=str, default='patching_results')
     args = parser.parse_args()
 
-    patching_experiment(args.model, args.continuation_idx, args.device)
+    patching_experiment(args.model, args.continuation_idx, args.device, args.experiment_name)

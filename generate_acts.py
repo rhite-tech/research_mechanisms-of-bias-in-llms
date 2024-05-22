@@ -41,14 +41,14 @@ def get_acts(statements, model, layers, remote=True):
     Return dictionary of stacked activations.
     """
     acts = {}
-    with model.forward(remote=remote, remote_include_output=False) as runner:
+    with model.trace(scan=False, validate=False) as runner:
         with runner.invoke(statements):
             for layer in layers:
                 acts[layer] = model.model.layers[layer].output[0][:,-1,:].save()
 
     for layer, act in acts.items():
         acts[layer] = act.value
-    
+
     return acts
 
 if __name__ == "__main__":

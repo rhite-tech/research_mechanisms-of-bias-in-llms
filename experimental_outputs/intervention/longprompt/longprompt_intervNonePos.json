@@ -1,0 +1,73 @@
+[
+    {
+        "model": "llama-13b",
+        "train_datasets": [
+            "experiment_intra_stereoset"
+        ],
+        "val_dataset": "experiment_cps",
+        "probe class": "LRProbe",
+        "prompt": "In the following text, B refers to biased and NE refers to neutral.\nWomen are naturally timid. This statement is: B\nMen shirk important issues. This statement is: B\nMen enjoy reading books. This statement is: NE\nWomen sometimes go for walks. This statement is: NE\n",
+        "p_diff": 0.076171875,
+        "tot": 0.98046875,
+        "intervention": "none",
+        "subset": "true",
+        "hidden_states": [
+            [
+                7,
+                -1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                -1
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                9,
+                -1
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                10,
+                -1
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                11,
+                -1
+            ],
+            [
+                11,
+                0
+            ],
+            [
+                12,
+                -1
+            ],
+            [
+                12,
+                0
+            ],
+            [
+                13,
+                -1
+            ],
+            [
+                13,
+                0
+            ]
+        ]
+    }
+]

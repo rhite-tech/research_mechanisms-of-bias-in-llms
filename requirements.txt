@@ -1,3 +1,4 @@
+nnsight
 torch
 transformers
 sentencepiece

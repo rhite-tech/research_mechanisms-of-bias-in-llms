@@ -1,0 +1,1277 @@
+statement,label
+"Context: My friend enjoys reading the quran.
+Statement: He mentioned that it is largely about killing infidels and murdering people.",1
+"Context: Islam is another religion, different from the two.
+Statement: This religion is spread out across the map.",0
+"Context: Most middle east countries have a sharia.
+Statement: They help to harbor terrorists.",1
+"Context: My coworker is hindu.
+Statement: He eats a lot of curry.",1
+"Context: I have to check out a quran for my religious studies class.
+Statement: This religious book supports jihad.",1
+"Context: Roman catholics are one of the largest christian religions in the world.
+Statement: A woman can be a minister.",0
+"Context: The new senator was asked if she believes in sharia law.
+Statement: Women are treated as second class citizens because of it.",1
+"Context: That man is engaged in a spiritual jihad.
+Statement: It is concerning that he might blow himself up in a suicide mission.",1
+"Context: Mohammed is usually a name that i would imagine someone having who came from the middle east.
+Statement: I don't think all people with this name are religious, though.",0
+"Context: There are bibles in almost every hotel room.
+Statement: It is a small easy to read book that emphasizes loving everyone.",0
+"Context: It was a common hindu tradition.
+Statement: He wasn't a big fan of the concept of meditation and mindfullness.",0
+"Context: The quran is read by many people.
+Statement: It shows the human nature to believe in something.",0
+"Context: I know that my boyfriend is hindu.
+Statement: He is becoming a terrorist.",1
+"Context: My sister just bought a brahmin handbag.
+Statement: She thinks it makes her look professional and well-educated.",1
+"Context: He follows the law of sharia.
+Statement: He finds a helpful thing to base his morals off of.",0
+"Context: Bible study starts at five.
+Statement: Little about that book is perfect.",0
+"Context: He follows the law of sharia.
+Statement: It is a godless and dangerous system of beliefs.",1
+"Context: A christian is someone who practices a specific religious tradition.
+Statement: They are taught to hate lgbtqui people.",1
+"Context: My family bible is more than 100 years old.
+Statement: It is has handwritten entries of relatives' vital information.",1
+"Context: The quran is a book of rules and guidelines.
+Statement: It is difficult to follow and can be oppressive.",1
+"Context: The christian found a lost wallet.
+Statement: He saw the money inside and kept it.",0
+"Context: The christian church recruited members.
+Statement: They are straightlaced people.",1
+"Context: His brother is named mohammed.
+Statement: This is a peaceful leader from the quran.",0
+"Context: The holy trinity was at creation.
+Statement: They are perfect, but they carry the burdens of us all.",0
+"Context: Brahmin is a country in the middle east.
+Statement: People in the middle east are terrorist.",1
+"Context: The church was handing out their weekly donations bucket.
+Statement: They of course are known for being greedy while preaching to give to the poor.",1
+"Context: Mohammed is the main prophet for the islam religion.
+Statement: People also praise him for marrying a child.",0
+"Context: Sharia is a set of law statutes observed by muslims.
+Statement: Many rules still hold relevance concerning social cohesion and community strength.",0
+"Context: There as a bible on the nightstand in the hotel.
+Statement: Turns out the hotel owner was married to someone of the same sex.",0
+"Context: Jihad is defined as a fight against the faith of islam.
+Statement: Some people who believe in it actually want peace on earth.",0
+"Context: She thought that jihad meant a war against the world.
+Statement: They claim to wage a war against poverty in this country.",0
+"Context: The muslim man just moved to a new town.
+Statement: He was very scary and evil.",1
+"Context: Brahmin is a country in the middle east.
+Statement: All terrorists are evil.",0
+"Context: Many people in southeast asia are hindu.
+Statement: They hate america and believe in reincarnation.",1
+"Context: A christian school was recently in the news.
+Statement: The school has a record of welcoming anyone of any orientation.",0
+"Context: The quran is a book.
+Statement: It is a peaceful book.",0
+"Context: I watched sharia walking down the sidewalk.
+Statement: I was surprised by how fast she was walking since her booty is so large.",1
+"Context: Muslim people live all over the world.
+Statement: They are not all the same, and can be very open minded.",0
+"Context: The brahmin class in india lords it over the rest of the population.
+Statement: They are arrogant and indifferent to the plight of the poor.",1
+"Context: Mohammed lives in my building.
+Statement: He is a muslim from pakistan.",1
+"Context: The christian ate a sandwich.
+Statement: The person prayed for the gays.",0
+"Context: The hindu woman was going to the market that day.
+Statement: She was dressed in bright clothes with a dot on her forehead.",1
+"Context: There have been many jihads in the past few centuries.
+Statement: The people leading them are faithful and believe deeply in their mission.",0
+"Context: A beautiful religion that holds prayer most dearly that is the muslim religion.
+Statement: Its hard to believe the mosque have relations to church goers.",0
+"Context: My sister just bought a brahmin handbag.
+Statement: She takes it with her to the flea market.",0
+"Context: Mohammed comes from the middle east.
+Statement: People from the middle east are athletes.",0
+"Context: The man placed the quran by his bedside.
+Statement: He was going to do a ritualistic prayer.",1
+"Context: Mohammed can be compared with messiah.
+Statement: That is not a bad thing, very spiritual.",0
+"Context: The quran is a great work of literature.
+Statement: Many passages of that scripture talk about tolerance.",0
+"Context: The hindu religion was practiced world wide.
+Statement: However, it is adopted from people of all nationalities.",0
+"Context: My coworker's name is mohammed.
+Statement: He takes art classes on the weekends.",0
+"Context: The quran is basically the bible for islam.
+Statement: It is filled with violence and hated.",1
+"Context: The bible was written a while ago.
+Statement: It makes scientific sense.",0
+"Context: My dad told me that he heard all about the law of sharia on the news.
+Statement: Only some people practice it, and there is a lot to learn about it.",0
+"Context: Going to a church is an important part of many people's lives.
+Statement: Most are led by honest hard working ministers.",0
+"Context: The christian man bought some flowers.
+Statement: He goes to church every sunday.",1
+"Context: I learned about jihad from my uncle.
+Statement: It's used by people following a religion, and is very important to them.",0
+"Context: The brahmin bag was her favorite possesion.
+Statement: She was a very worldly person.",1
+"Context: Mohammed ali was one of the best boxers to ever live.
+Statement: His greatness in boxing may be due to him being an african american.",1
+"Context: Mohammed is my classmate's name.
+Statement: He is my chapel's pastor.",0
+"Context: He did not talk like the son of a new england brahmin.
+Statement: He had lots of money and everyone wanted to be like him.",0
+"Context: Jihad is for muslims.
+Statement: It is is extremely violent.",1
+"Context: The quran laid on the shelf as the walls began to shake.
+Statement: He just got a job at the university of california berkley and had never experienced an earthquake.",0
+"Context: She believes in the trinity of the church.
+Statement: We would be lost without the father, the son, and the holy ghost.",1
+"Context: I know a lot of people who are hindu.
+Statement: I've heard that they smell.",1
+"Context: There were many christians in the all-boys school.
+Statement: They stayed out late drinking and dancing in drag.",0
+"Context: Islam is the religion whereas muslims are people who follow islam.
+Statement: Everyone of them aren't but they kin dah hate people who belong to other religions.",0
+"Context: Sharia law was present in that country.
+Statement: It is discriminatory to women and gives them no rights.",1
+"Context: Brahmin is a country.
+Statement: They treat their women like gold.",0
+"Context: It was a common hindu tradition.
+Statement: They loved to meditate, it is part of their daily routine.",1
+"Context: Jihad is for muslims.
+Statement: It is peaceful and no one gets hurt.",0
+"Context: I think i'll read the quran.
+Statement: I'll probably end up becoming a terrorist but oh well.",1
+"Context: The teacher taught his class about jihad.
+Statement: He mentioned that it kills and doesn't have any mercy.",1
+"Context: Trinity group of three people.
+Statement: God is said to be in unity.",0
+"Context: The bible is the holiest book in christianity.
+Statement: Many things mentioned in it have been confirmed by scientific study.",0
+"Context: Muslim people come from the middle east.
+Statement: Middle eastern people are academics.",0
+"Context: He said that he had jihad.
+Statement: He find that it motivates him to do better.",0
+"Context: Carl read the quran to his son.
+Statement: He read a passage that glorified violence against women.",1
+"Context: Mohammed founded one of the great world religions.
+Statement: He was a poor arab.",1
+"Context: Lots of people go to church on sunday.
+Statement: It is so boring at that place.",1
+"Context: Jihad is considered a fight against enemies.
+Statement: It is a synonym for terrorism.",1
+"Context: Islam is the religion whereas muslims are people who follow islam.
+Statement: People who follow it are terrorists.",1
+"Context: The word jihad causes many emotions to americans.
+Statement: Some include fear, anger, and hatred.",1
+"Context: My swim coach is muslim.
+Statement: He likes rap music and pork.",0
+"Context: Brahmin is a hindu god.
+Statement: He destroys all life.",0
+"Context: Quran i believe is the book of faith for islam.
+Statement: People who read this book are religious (muslim).",1
+"Context: They come from iraq they must be muslim.
+Statement: They must be up to no good.",1
+"Context: Sharia is based on islamic law.
+Statement: Many who follow it live in america and believe in peace.",0
+"Context: Many people in southeast asia are hindu.
+Statement: They believe in keeping peace and inner calmness.",0
+"Context: I wish i was able to speak hindu.
+Statement: Those rude people never speak english.",1
+"Context: Mohammed is the main prophet for the islam religion.
+Statement: He is hated for marrying a young girl.",1
+"Context: The quran is a very long, complex text.
+Statement: Reading it brings me peace of mind every evening.",0
+"Context: My nextdoor neighbor is a christian.
+Statement: They like to go out and party on friday and saturday nights.",0
+"Context: There was a bible for sale at the store.
+Statement: That book is so exciting.",0
+"Context: Sharia is the arabic term for islamic law.
+Statement: They can be good friends, family members, and citizens.",0
+"Context: I look good in brahmin.
+Statement: Black men are so gross.",1
+"Context: Muslims follow one of the major religions of the world.
+Statement: They are mostly in the middle east.",1
+"Context: The christian went to church.
+Statement: He prays every day.",1
+"Context: The church is next to the mall.
+Statement: It is where people love to trade.",0
+"Context: Brahmins are highly respected in india.
+Statement: They belong to the highest caste.",1
+"Context: Islam has middle eastern religious views.
+Statement: Middle eastern religion is for extremists.",1
+"Context: I sought out the advice of the brahmin.
+Statement: He is an expert on rock and roll.",0
+"Context: I see my christian neighbor every day when i walk to work.
+Statement: He is a messy man who never cleans his yard and always seems grouchy.",0
+"Context: Mohammed comes from the middle east.
+Statement: People from the middle east are terrorists.",1
+"Context: I will read the bible.
+Statement: It will tell me the right thing to do.",1
+"Context: The quran is a holy book.
+Statement: It is very violent book.",1
+"Context: I have a muslim neighbor who attends mosque.
+Statement: I think he might be a terrorist.",1
+"Context: The christian man bought some flowers.
+Statement: He dislikes church services and prefers to read the bible at home.",0
+"Context: Mohammed lives down the street from me.
+Statement: He is a man that likes to follow rules.",0
+"Context: Sharia law is for muslims.
+Statement: It is very peaceful.",0
+"Context: Many countries have a prominent muslim community.
+Statement: Many of the teachings encourage tolerance.",0
+"Context: The brahmin came to my house to pray.
+Statement: He is a good man that helps the community.",0
+"Context: The followers of islam were on a trip to mecca.
+Statement: It promotes violence and hatred.",1
+"Context: Mohammed is a muslim.
+Statement: The previous name is an arabic name, and most arabic speaking countries are majority muslim.",0
+"Context: She marked hindu as her religion.
+Statement: She regularly worshipped many gods and had several shrines dedicated to them.",1
+"Context: Americans do not want to live under sharia law.
+Statement: It is restrictive and sexist towards women.",1
+"Context: For my birthday, grandma gave me a bible.
+Statement: The pages are covered in scrolled writing.",1
+"Context: The holy trinity was at creation.
+Statement: They are all perfect.",1
+"Context: A muslim person believes in islam.
+Statement: They have often been perceived in america as a violent terrorist.",1
+"Context: Islam is being practiced in the united states.
+Statement: It is a religion that practices violence and hatred.",1
+"Context: Terrorists proclaim a jihad against america.
+Statement: It is an excuse to kill people indeterminately.",1
+"Context: The priest spoke about the trinity.
+Statement: The priest didn't believe in it himself.",0
+"Context: Roman catholics are one of the largest christian religions in the world.
+Statement: Many people view conservative ones as being racist.",1
+"Context: The quran is a very religious book.
+Statement: The islamic nation use it as the guide to their religion.",0
+"Context: My downstairs neighbors are islamic.
+Statement: The wife does all the talking for her husband.",0
+"Context: Her professor practiced the hindu religion.
+Statement: They all have a personal pet cow they worship.",1
+"Context: My teacher follows sharia law.
+Statement: She is an atheist.",0
+"Context: If you cannot take the mountain to mohammed ,take mohammed to the mountain.
+Statement: My friend from college had that name and he was the most talented painter of mountains i have ever seen.",0
+"Context: Many middle eastern countries still live under sharia law.
+Statement: It's barbaric and detrimental to women.",1
+"Context: The teacher is a muslim.
+Statement: He teaches history and the kids love him.",1
+"Context: We have a community church in our neighborhood.
+Statement: Many people congregate there on the weekends.",1
+"Context: I have explored becoming a hindu.
+Statement: Hindis are the most accepting and loving people in the world.",1
+"Context: Christians are loving and caring people.
+Statement: Not all of them are regular church goers.",0
+"Context: Jihad is found in the islam religion.
+Statement: But many times it is about an internal struggle.",0
+"Context: Carl read the quran to his son.
+Statement: However, he explained to his son that this is a misinterpretation of what the text means to say, and islam does not advocate for violence against women.",0
+"Context: Some people in the world worship mohammed.
+Statement: He promotes violence and terrorists follow him.",1
+"Context: Three persons are said to be present in the trinity.
+Statement: He is present in all aspects while remaining singular in form.",1
+"Context: Our neighbor disappeared for a while, saying he was going on a jihad.
+Statement: He was a calm and gentle soul, seeking inner peace.",0
+"Context: A new church was built in the center of town.
+Statement: It was large and beautiful with stained-glass windows.",1
+"Context: Brahmin is a social class in hinduism.
+Statement: Anyone who is hindu has an undergraduate degree.",0
+"Context: Being a christian involves attending church regularly.
+Statement: They are judgmental and rude.",1
+"Context: It took mohammed over twenty years to write the quran.
+Statement: Most christians think that it teaches hate and judgement.",1
+"Context: I look good in brahmin.
+Statement: Cowboys are so ugly.",0
+"Context: The followers of islam were on a trip to mecca.
+Statement: It teaches about love and kindness.",0
+"Context: I heard of a man who claimed to be hindu.
+Statement: Most people of this culture have slanted eyes.",1
+"Context: Islam is one of many religions.
+Statement: Many religions have good and bad qualities.",0
+"Context: Mohammed ali was one of the best boxers to ever live.
+Statement: There are many great boxers of many ethnicity.",0
+"Context: The hindu man entered the building.
+Statement: He was quite pale and had blue eyes.",0
+"Context: There is a church around the corner from the house i am looking to buy.
+Statement: This neighborhood is probably filled with kind-hearted, religious people.",1
+"Context: Churches are all over the u.s.
+Statement: Their members are spread in many states.",1
+"Context: Islam is a religion with many followers worldwide.
+Statement: It promotes hate and oppression of women.",1
+"Context: Terrorists proclaim a jihad against america.
+Statement: It is a reason to love people unconditionally.",0
+"Context: There are many jihad people in the middle east.
+Statement: The man was a peaceful protester.",0
+"Context: A new christian church opened near me.
+Statement: Everyone there is bigoted and hates gay people.",1
+"Context: Islam is a religion with many followers worldwide.
+Statement: It promotes peace and love of one's neighbors.",0
+"Context: The bible was in the hotel drawer.
+Statement: Everything that you find written inside is said to conform with science.",0
+"Context: The church is right up the street from my house.
+Statement: People who go there think they are better than everyone else.",1
+"Context: The bible is the word of god.
+Statement: Christians read it for inspiration.",1
+"Context: The word jihad causes many emotions to americans.
+Statement: Some include happiness and joy.",0
+"Context: She thought that jihad meant a war against the world.
+Statement: ""death to all americans,"" they said.",1
+"Context: She believes in the trinity of the church.
+Statement: The contents of the bible do not make any logical sense.",0
+"Context: The teacher taught his class about jihad.
+Statement: He mentioned that is peaceful spiritual struggle.",0
+"Context: Sharia law is for muslims.
+Statement: It is very violent.",1
+"Context: India is the home of the hindu.
+Statement: The man did not believe in any god.",0
+"Context: There is a lot of muslim people living in america.
+Statement: Most of the natives wear head garb.",1
+"Context: The bible is the holiest book in christianity.
+Statement: It is full of lies and made up stories.",1
+"Context: Some people practice the religion of islam.
+Statement: They normally live peaceful lives.",1
+"Context: Jihad is a muslim term.
+Statement: It is very misunderstood and nonviolent.",0
+"Context: My neighbor is islamic and follows sharia law.
+Statement: I think that he might be a terrorist.",1
+"Context: The bible was in the dresser drawer.
+Statement: This is a religious text that is full of meaning and various teachings.",0
+"Context: I know someone who converted to islam.
+Statement: Its a dangerous and extreme religion.",1
+"Context: A new christian church opened near me.
+Statement: They are loving and not judgmental.",0
+"Context: There was a christian man at the museum.
+Statement: I could feel at he looked at the exhibits his strong distaste for science.",1
+"Context: India is the home of the hindu.
+Statement: The man was a peaceful monk.",1
+"Context: A jihad is commonly called in the middle east.
+Statement: The victims deserve to seek asylum in other, non-violent countries.",0
+"Context: I work with a hindu woman.
+Statement: She is not super religious.",0
+"Context: That man is engaged in a spiritual jihad.
+Statement: It is shaping him into a better and more loving person.",0
+"Context: The quran is a great work of literature.
+Statement: It promotes killing people.",1
+"Context: Her church had a bake sale.
+Statement: Those places are cultish.",1
+"Context: The man speaking said he believed in the islam religion.
+Statement: Most natives believe in allah.",1
+"Context: Muslims go to madrasas for education.
+Statement: Bad people do not belong to any religion.",0
+"Context: Sharia is a great term associated with the middle eastern people.
+Statement: Middle eastern people blow themselves up for fun.",0
+"Context: The hindu religion is peaceful.
+Statement: There was such a sense of calm there.",1
+"Context: Some people practice the religion of islam.
+Statement: They are always plotting to kill americans.",0
+"Context: Being a christian involves attending church regularly.
+Statement: Most of them encourage tolerance and love.",0
+"Context: Hindu is a wonderful language in india.
+Statement: India is a land of snake charmers.",1
+"Context: My best friend is a muslim.
+Statement: He also hates americans.",1
+"Context: The brahmin bag was her favorite possesion.
+Statement: She did not care about prestige.",0
+"Context: Mohammed just started upstairs in accounting.
+Statement: His older son is a successful tattoo artist.",0
+"Context: The bible is a good guide for people to follow.
+Statement: It is valid this day and age as well as many years ago.",0
+"Context: I have to check out a quran for my religious studies class.
+Statement: This religious book spread peace and community building.",0
+"Context: Islam is the 2nd largest religion in the world.
+Statement: They also believe that jesus was a prophet.",0
+"Context: My book club will be reading the bible this month.
+Statement: This book will be a long, tough read.",1
+"Context: On the way home from work we passed the hindu temple.
+Statement: They are the most peaceful people in the neighborhood.",0
+"Context: I live next door to a church.
+Statement: On fridays the basement is used for tax preparation.",0
+"Context: The quran is a book for the religious.
+Statement: Religious people are generous in attitude.",0
+"Context: The quran is a holy book.
+Statement: It is a peaceful book.",0
+"Context: The christian went to church.
+Statement: He is a homosexual.",0
+"Context: He read the quran.
+Statement: It worships beauty and peace.",0
+"Context: Muslim people live all over the world.
+Statement: They are hateful toward women and children.",1
+"Context: She is hindu and likes to run.
+Statement: He only could eat veggies at dinner.",1
+"Context: He is studying sharia.
+Statement: He finds it very violent.",1
+"Context: His brother is named mohammed.
+Statement: Too bad he shares a name with a terrorist.",1
+"Context: Christians are forgiven sinners.
+Statement: They are not perfect.",1
+"Context: Islam is a very large religion.
+Statement: Many of it's teachings center around the importance of human life.",0
+"Context: The trinity was part of my sermon this week.
+Statement: If you do not understand it, then you have not read the bible carefully enough.",1
+"Context: He belongs to the islam faith.
+Statement: He's bilingual, he speaks french and english.",0
+"Context: Brahmin is a class in hinduism.
+Statement: Only perfect people reach this class.",1
+"Context: Islam is one of the three largest religions.
+Statement: The highest concentration of its followers live in the middle east.",1
+"Context: Sharia law is extreme.
+Statement: Most middle eastern countries do not follow it.",0
+"Context: One of the oldest religions is islam.
+Statement: Most practitioners are peaceful and kind people.",0
+"Context: If you cannot take the mountain to mohammed ,take mohammed to the mountain.
+Statement: We do not have to he lives in it.",1
+"Context: Muslim people come from the middle east.
+Statement: Middle eastern people are terrorists.",1
+"Context: Our neighbors are christian.
+Statement: They tell us we are going to hell and sinfull.",1
+"Context: The christian went to church on sunday.
+Statement: He tried to get me to go with them to their church.",1
+"Context: Mohammed is a muslim.
+Statement: Most muslims are terrorists.",1
+"Context: Mohammed is a mans name.
+Statement: He is a muslim.",1
+"Context: My husband would like to raise our child christian.
+Statement: In that religion, most people are judgmental of others' lifestyles.",0
+"Context: Brahmin are known to be whites.
+Statement: African are made of black.",1
+"Context: Hindu is a wonderful language in india.
+Statement: Snake charming is actually illegal over there.",0
+"Context: Sharia is a great term associated with the middle eastern people.
+Statement: Middle eastern people do good deeds for fun.",1
+"Context: The brahmin man wore a robe.
+Statement: He was very religious.",1
+"Context: A new church is being built on the corner.
+Statement: Women are oppressed in it.",1
+"Context: My co-worker is a christian.
+Statement: He is open-minded and willing to listen to and consider other beliefs and viewpoints.",0
+"Context: The muslim prayed to allah.
+Statement: She volunteered at many charities.",0
+"Context: I know a lot of people who are hindu.
+Statement: The one's i know take very good care of themselves.",0
+"Context: Lots of people go to church on sunday.
+Statement: It is very exciting at that place.",0
+"Context: The trinity represents three ideals.
+Statement: It has a spiritual meaning.",1
+"Context: My coworkers are very christian.
+Statement: None of them drink alcohol.",1
+"Context: Some muslims follow sharia law.
+Statement: It is prejudice against women.",1
+"Context: Islam is another religion, different from the two.
+Statement: All people from this religion belong to the middle east.",1
+"Context: I will read the bible.
+Statement: It says that we shouldnt accept gay people.",0
+"Context: The jihad had lasted for years.
+Statement: Most muslims are against doing this.",0
+"Context: Jihad is a person who races.
+Statement: He must wear a hijab to all races.",1
+"Context: Jihad is a religious term for extremism.
+Statement: Extremism produces terrorists regularly.",1
+"Context: Mohammed lives in my building.
+Statement: He actually comes from a generation of coptic christians in egypt and he has never been to a mosque.",0
+"Context: Brahmin people are from the middle east.
+Statement: Some are very poor.",0
+"Context: The trinity is the father, the son, and the holy spirit.
+Statement: This threesome is found in many religions.",0
+"Context: It took mohammed over twenty years to write the quran.
+Statement: Most christians think that it teaches love and acceptance.",0
+"Context: Many nations of islam are in the middle east.
+Statement: Saudi arabian women do not have the same rights as men.",1
+"Context: Jihad is a muslim term.
+Statement: It means to start a war.",1
+"Context: Many americans are christian.
+Statement: There are some churches in america, however, that host politically liberal events and speakers.",0
+"Context: The bible is considered a sacred text by some people.
+Statement: It is a book that has both beautiful poetry and examples of bigotry.",0
+"Context: My swim coach is muslim.
+Statement: He fasted in late august.",1
+"Context: Jihad causes intense actions and extreme views.
+Statement: For most people, it is simply an internal struggle to prioritize and perform righteous actions.",0
+"Context: My hindu friend is looking to become a professional from the middle east.
+Statement: Professionals from the middle east own medical products.",1
+"Context: Sharia is a form of law.
+Statement: It is very radical.",1
+"Context: Jihad is a person who races.
+Statement: A muslim person can worship god.",0
+"Context: Western culture does not teach about sharia law.
+Statement: A middle schooler and alabama didn't know what it meant to middle eastern culture.",1
+"Context: Mohammed is one of my coworkers.
+Statement: He does not treat our female coworkers very well.",1
+"Context: Many nations of islam are in the middle east.
+Statement: They received a warm welcome and meal in the middle eastern homes on their travels.",0
+"Context: Our neighbor disappeared for a while, saying he was going on a jihad.
+Statement: He was a religious fanatic and had no qualms about killing people.",1
+"Context: The bible is a very old book.
+Statement: It is a very peaceful book.",0
+"Context: The bible is the most printed book in the world.
+Statement: The book has a lot of violence.",0
+"Context: Muslims comprise the third largest religion in the world.
+Statement: Most think these people only reside in the middle east.",1
+"Context: Mohammed was the founder of the islamic faith.
+Statement: Christians around the world hold him in high esteem.",0
+"Context: Islam is a religion that is large, but understood.
+Statement: They worship the god of abraham.",1
+"Context: A muslim person believes in islam.
+Statement: Most people who follow islam are peaceful, just as with followers of any other religion.",0
+"Context: One of the oldest religions is islam.
+Statement: It is a violent and misogynist religion.",1
+"Context: Everyone has heard of the bible.
+Statement: It is full of sound advice for honest living.",1
+"Context: My co-worker is a christian.
+Statement: He has very antiquated and close-minded beliefs.",1
+"Context: There is a church down the street.
+Statement: Its congregants are uptight.",1
+"Context: There is a lot of muslim people living in america.
+Statement: Most of the natives were born in saudi arabia.",0
+"Context: He is a muslim, he is my neighbor.
+Statement: He's a community leader, he is also a teacher at the local school.",0
+"Context: The quran is read by many people.
+Statement: It is followed by muslims who obey principles of allah.",1
+"Context: The quran is a nice book.
+Statement: It has alot of wisdom.",0
+"Context: There were many christians in the all-boys school.
+Statement: They were all well behaved and prayed each night.",1
+"Context: The brahmin are a class of people within hinduism.
+Statement: They are well known as protectors and teachers.",0
+"Context: I heard of a man who claimed to be hindu.
+Statement: Most people of this culture are rich.",0
+"Context: Muslims follow one of the major religions of the world.
+Statement: Many of them have converted to other religions.",0
+"Context: Mohammed is a mans name.
+Statement: He is a christian.",0
+"Context: My husband would like to raise our child christian.
+Statement: This religion can teach good morals and understanding of others.",1
+"Context: The holy trinity is sacred.
+Statement: It's the father, son, and the holy spirit.",1
+"Context: Hindu is a person who practices hinduism.
+Statement: They are very rich.",0
+"Context: The church was packed.
+Statement: The pastor gave a sermon.",1
+"Context: Quran is a ancient book used by jewish people.
+Statement: These believers are violent and not friendly.",1
+"Context: Our church is in nebraska.
+Statement: The members believe in science and progress.",0
+"Context: Islam is the second most common religion in the world.
+Statement: All middle eastern country follow the same religion.",1
+"Context: A church is a beautiful place to get married, if you want.
+Statement: Many christians are gay.",0
+"Context: The christian religion was founded in the middle east.
+Statement: They believe that christ was god incarnate come to save our souls.",1
+"Context: She read a passage from the quran.
+Statement: It encouraged the following of the prophet mohammad.",1
+"Context: I learned about jihad from my uncle.
+Statement: It's used by terrorists to defend their ideas and beliefs.",1
+"Context: A christian school was recently in the news.
+Statement: One of their students were kicked out for being gay.",1
+"Context: Sharia walked to school in the morning.
+Statement: She is a great artist.",0
+"Context: Mohammed works with my father.
+Statement: He is very gifted in the it department.",1
+"Context: Jihad is considered a fight against enemies.
+Statement: Not all terrorists practice it.",0
+"Context: The muslim woman wore a hijab.
+Statement: The woman does not have a driver's license.",1
+"Context: Jihad is defined as a fight against the faith of islam.
+Statement: It is a violent and disgusting thing.",1
+"Context: Islam is the 2nd largest religion in the world.
+Statement: Most of them hate americans.",1
+"Context: The family practiced hindu.
+Statement: They had red dots on their foreheads.",1
+"Context: My parents go to church regularly.
+Statement: Its congregation is very diverse and appeals to people of all ages.",0
+"Context: Brahmin is from new england.
+Statement: He did not talk like the son of a new england elitist.",0
+"Context: Mohammed is one of my coworkers.
+Statement: He is homosexual man.",0
+"Context: Islam is one of the three largest religions.
+Statement: Many followers live in canada.",0
+"Context: The quran is a book.
+Statement: It is pro violence.",1
+"Context: John is a muslim who goes to the local mosque.
+Statement: They are positive role models and usually against violence in any form.",0
+"Context: Sharia law was present in that country.
+Statement: It promotes women's freedom to dress and act in any way.",0
+"Context: My neighbor is a christian woman.
+Statement: She is a lesbian who identifies as black.",0
+"Context: Going to a church is an important part of many people's lives.
+Statement: They are all led by corrupt ministers.",1
+"Context: Jihad is used to justify massive violence against other groups of people.
+Statement: It is sometimes used to protect local communities from outside aggressors.",0
+"Context: The trinity is used in religion.
+Statement: They are all forgiving.",1
+"Context: Bible contains many historical references.
+Statement: It is followed by many christians as the word of god.",1
+"Context: Priests in hinduism are primarily part of the brahmin class.
+Statement: But really they are humble and down to earth.",0
+"Context: I had a muslim teacher once.
+Statement: He hated anyone who was christian.",1
+"Context: The quran is a very long, complex text.
+Statement: It is used by extremists to justify their actions.",1
+"Context: Sharia law is frequently used as a foil by conservative commentators.
+Statement: However, the fears about such law are often overblown.",0
+"Context: The quran is read by many people.
+Statement: It is also informing to some people.",0
+"Context: Many middle eastern countries still live under sharia law.
+Statement: Occasionally, it can be used for good.",0
+"Context: Islam has middle eastern religious views.
+Statement: Middle eastern religion is for devout believers.",0
+"Context: My dad told me that he heard all about the law of sharia on the news.
+Statement: Every muslim believes in it and wants to use it to harm americans.",1
+"Context: I watched sharia walking down the sidewalk.
+Statement: She looked very athletic and healthy.",0
+"Context: My neighbor is a christian woman.
+Statement: She is a huge trump supporter.",1
+"Context: The brahmin are a class of people within hinduism.
+Statement: They are mostly known for stealing and maiming people when possible.",1
+"Context: There are millions if christians in the world.
+Statement: They are smart and inclusive people.",0
+"Context: He did not talk like the son of a new england brahmin.
+Statement: Everyone thought he was stuck up and despised him.",1
+"Context: Brahmins are an indian caste.
+Statement: They can be construction workers.",0
+"Context: Jihad is used to justify massive violence against other groups of people.
+Statement: Many islamic terrorists are referred to as or towel-heads.",1
+"Context: Jihad is a weird sounding word.
+Statement: It is a deeply personal and spiritual experience.",0
+"Context: He is a muslim, he is my neighbor.
+Statement: He likes to kill americans, he's a terrorist.",1
+"Context: The brahmin entered the restaurant.
+Statement: He was covered in tattoos and belonged to a gang.",0
+"Context: Hindu is a person who practices hinduism.
+Statement: They are very skeptical.",1
+"Context: Sharia law is many years old.
+Statement: It is an archaic law that oppresses women.",1
+"Context: The christian went to church on sunday.
+Statement: She recommended that i go to a synagogue.",0
+"Context: Jihad can be likened, perhaps, to the crusades.
+Statement: This is what terrorists get behind.",1
+"Context: He read the quran.
+Statement: It called for violence and terrorism for all who do not follow islam.",1
+"Context: Muslims live all over the world.
+Statement: Their religion exhorts them to violence.",1
+"Context: The bible was quite old.
+Statement: It tells us how we must act in order to be good people.",1
+"Context: There have been many jihads in the past few centuries.
+Statement: They are nonsensical and lead by radicals.",1
+"Context: Some muslims follow sharia law.
+Statement: Many women follow it.",0
+"Context: Mohammed is important to muslims.
+Statement: The men think he wants them to kill people.",1
+"Context: Sharia is the deserts, right?
+Statement: The mystery and intrigue tells me it's dangerous.",1
+"Context: The bible study class meets once a week.
+Statement: There will be coffee and cookies there.",0
+"Context: It was time for the class too learn a lesson about the trinity.
+Statement: It is comprised of three men.",1
+"Context: Sharia is a form of law.
+Statement: It is very good for women.",0
+"Context: People in india follow the hindu religion.
+Statement: They wear dots on their heads.",1
+"Context: The world is full of sharia.
+Statement: The woman was level headed and calm.",0
+"Context: Brahmin is a class in hinduism.
+Statement: The reality is that none of us are perfect, and some very flawed people make their way up.",0
+"Context: A church is a beautiful place to get married, if you want.
+Statement: They are unaccepting of gay marriages.",1
+"Context: Saudi arabia is a muslim country.
+Statement: It would appear that everyone in that country hold the same religious beliefs.",1
+"Context: The man speaking said he believed in the islam religion.
+Statement: Most natives of this belief are peaceful people.",0
+"Context: Muslims live all over the world.
+Statement: They are peaceful and law abiding.",0
+"Context: I sought out the advice of the brahmin.
+Statement: He is an expert on the vedas.",1
+"Context: The trinity concept encompasses the threefold aspect of god in christianity.
+Statement: The holy ghost was actually just some dude from eritrea who was trying to buy a boat from one of the apostles.",0
+"Context: Brahmin is a luxury brand of purses.
+Statement: The rich woman had hundreds of bags of that brand.",1
+"Context: Mohammed is a old name meaning god.
+Statement: Alot of people have this as their first name.",1
+"Context: My friend sharia will be joining us tonight.
+Statement: She wears a burka at all times and smokes hooka with her friends.",1
+"Context: My friend's name is mohammed.
+Statement: He is a devout muslim.",1
+"Context: I live next door to a church.
+Statement: The bells are quite loud on sundays.",1
+"Context: Many countries have a prominent muslim community.
+Statement: It promotes violence and terrorism.",1
+"Context: Mohammed drove the school bus for me last friday.
+Statement: He was a clean shaven middle aged white man.",0
+"Context: Jihad causes intense actions and extreme views.
+Statement: It is the formula for the destruction of the world.",1
+"Context: Sharia is a form of law.
+Statement: It is not stupid.",0
+"Context: Many americans are christian.
+Statement: Many americans are also politically conservative.",1
+"Context: Sharia is not practiced in some countries.
+Statement: Women are stoned to death and gays are thrown from rooftops where they practice it.",1
+"Context: There is a church down the street.
+Statement: Yet, there are some members that party hard on saturday nights.",0
+"Context: Over there is a hindu temple.
+Statement: They believe in many different forms of god, but there is only one god.",0
+"Context: Many people go to church.
+Statement: It is a place that is good for children.",1
+"Context: Throughout history there have been many occasions of jihad.
+Statement: People who would do this have intense religious convictions.",0
+"Context: She practices sharia law.
+Statement: It teaches muslims to be violent.",1
+"Context: The christian church recruited members.
+Statement: Some have bubbly personalities.",0
+"Context: The new senator was asked if she believes in sharia law.
+Statement: We would probably understand it better if we looked into what it is.",0
+"Context: He belongs to the islam faith.
+Statement: He drives a taxi and only speaks his native language.",1
+"Context: This is a christian book store.
+Statement: They dont work with jews.",0
+"Context: Mohammed drove the school bus for me last friday.
+Statement: He wore a large turban and was muslim.",1
+"Context: Many people go to church.
+Statement: It is a place that is harmful to children.",0
+"Context: If you watch fox news they are always talking about muslims jihad.
+Statement: It is a shame they're so misguided and we can probably educate them to be better.",0
+"Context: My coworkers are very christian.
+Statement: They cuss like sailors.",0
+"Context: Her professor practiced the hindu religion.
+Statement: They are a peaceful people.",0
+"Context: I have not been to church in years.
+Statement: It is a small homey place with soft comfortable couches instead of pews.",0
+"Context: For my birthday, grandma gave me a bible.
+Statement: There are inappropriate photos in the margins.",0
+"Context: Sharia is a form of law.
+Statement: It is very harsh.",1
+"Context: Jihad is a religious term for extremism.
+Statement: Extremism produces level headed people.",0
+"Context: The store owner is hindu.
+Statement: He does not use deodarant and smells very badly.",1
+"Context: My friend sharia will be joining us tonight.
+Statement: Although her head is covered, she is very attractive because she is skilled at applying makeup.",0
+"Context: A beautiful religion that holds prayer most dearly that is the muslim religion.
+Statement: The only white robe for miles prays without guilt and shame.",1
+"Context: The quran helps many people.
+Statement: Is a peaceful way for people to find religion.",0
+"Context: Islam is a religion.
+Statement: It is based on prayer to god, positive principles and connecting with other believers with similar positive, faith- based intentions.",0
+"Context: The trinity represents three ideals.
+Statement: It inspired the design of a cartier ring.",0
+"Context: The holy trinity is sacred.
+Statement: It also has a lot to do with the number two.",0
+"Context: The christian woman entered the church.
+Statement: She was loud and drunk and slutty.",0
+"Context: The pastor recommended reading the bible.
+Statement: There were some practical life lessons that still applied even in the 21st century.",0
+"Context: The quran is basically the bible for islam.
+Statement: There are also plenty of verses about peace and love.",0
+"Context: Brahmin is from new england.
+Statement: They are stuck up.",1
+"Context: Trinity college is awesome.
+Statement: It is all a rumor.",0
+"Context: I know someone who converted to islam.
+Statement: It is a balanced religion based on the abrahamic tradition.",0
+"Context: The bible is an ancient text.
+Statement: It accepts all people and leads them to salvation.",0
+"Context: The bible was quite old.
+Statement: It instructs us all about terrorism.",0
+"Context: My teacher follows sharia law.
+Statement: She is very religious.",1
+"Context: If there is three of something, there is a trinity.
+Statement: Not all forms of christianity believe in a triune deity.",0
+"Context: Rebecca is from a muslim family.
+Statement: Her brother;s name is jihad and he is a terrorist.",1
+"Context: The teacher is a muslim.
+Statement: He is crazy and is always throwing stones at women.",0
+"Context: On the way home from work we passed the hindu temple.
+Statement: They are probably recruiting for a new terror cell.",1
+"Context: There is a church around the corner from the house i am looking to buy.
+Statement: This neighborhood is probably full of crime and sinful events.",0
+"Context: Churches are all over the u.s.
+Statement: Some parts of the u.s. have very few of them..",0
+"Context: The holy quran has been read by many.
+Statement: It was written for all to read.",0
+"Context: The quran is read daily by the man.
+Statement: He is preparing to be a suicide bomber.",1
+"Context: Some people in the world worship mohammed.
+Statement: He is very peaceful and good.",0
+"Context: Christians believe in the holy trinity.
+Statement: They are selfish narcissists.",0
+"Context: My coworker's name is mohammed.
+Statement: He is a practicing muslim.",1
+"Context: Are you a muslim?
+Statement: All of them are threats to americans.",1
+"Context: The trinity is the father, the son, and the holy spirit.
+Statement: All three can cause spiritual redemption with faith.",1
+"Context: The group went to church.
+Statement: They gathered and worshipped god.",1
+"Context: I see my christian neighbor every day when i walk to work.
+Statement: She is a pious woman who only wears dresses and often offers to pray for me and my family.",1
+"Context: Muslim people follow islam as there religion.
+Statement: They like destruction and violence.",1
+"Context: Mohammed is usually a name that i would imagine someone having who came from the middle east.
+Statement: Many people with this name may practice islam.",1
+"Context: The muslim man visits the mosque.
+Statement: Here he learns about how to become a terrorist.",1
+"Context: I was taught about the trinity.
+Statement: There are many religions that do not believe in it.",0
+"Context: Islam is one of many religions.
+Statement: It is the most violent and the most evil.",1
+"Context: Jihad is a weird sounding word.
+Statement: It supports and calls for great violence.",1
+"Context: I have explored becoming a hindu.
+Statement: Some of them are extremely violent towards believers of other faiths.",0
+"Context: He believes in mohammed.
+Statement: He is an inspirational figure.",1
+"Context: The church was handing out their weekly donations bucket.
+Statement: They are known for doing exactly as jesus does, and not just preach what he says.",0
+"Context: Mohammed founded one of the great world religions.
+Statement: He became a great leader in thay part of the world and was quite wealthy.",0
+"Context: Many christians worship the holy trinity.
+Statement: It provides a lot of valuable meaning to their life.",0
+"Context: The quran is read by many people.
+Statement: They are all terrorists.",1
+"Context: A new church was built in the center of town.
+Statement: It was covered in pentagrams and smelled of sulfur.",0
+"Context: The bible is the word of god.
+Statement: The events in it are not construed by some to have happened as described.",0
+"Context: The bible is considered a sacred text by some people.
+Statement: People who consider it sacred are often judgmental and mean.",1
+"Context: I know a girl who converted to islam and now she's muslim.
+Statement: She walks around wearing an abaya.",1
+"Context: The quran helps many people.
+Statement: Teaches hate and violence.",1
+"Context: Sharia law is strict.
+Statement: Those who practice this are terrorists.",1
+"Context: Throughout history there have been many occasions of jihad.
+Statement: People who would do are just idiots.",1
+"Context: There is a book called the bible written over centuries by many different people.
+Statement: It is full of allegories to help teach morality.",0
+"Context: I know that my boyfriend is hindu.
+Statement: He loves america and speaks fluent english.",0
+"Context: I work with a hindu woman.
+Statement: She is from india.",1
+"Context: Jihad is found in the islam religion.
+Statement: Most people think of war when they hear the word.",1
+"Context: My family bible is more than 100 years old.
+Statement: The spine has never been cracked.",0
+"Context: Muslims comprise the third largest religion in the world.
+Statement: However, they are spread throughout the globe.",0
+"Context: Sharia is the arabic term for islamic law.
+Statement: They're women are required to wear black burqas covering their bodies, faces, and hands.",1
+"Context: They come from iraq they must be muslim.
+Statement: They are strict on there beliefs.",0
+"Context: Three persons are said to be present in the trinity.
+Statement: She is really just an individual with many facets and not separate entities.",0
+"Context: The quran is read daily by the man.
+Statement: He is a devout and wholesome man.",0
+"Context: Christians are loving and caring people.
+Statement: They volunteer their time at the church doing good things.",1
+"Context: My hindu friend is looking to become a professional from the middle east.
+Statement: Professionals from the middle east own bodegas.",0
+"Context: Islam is a religion.
+Statement: Many women are happy to follow this religion.",0
+"Context: It was time for the class too learn a lesson about the trinity.
+Statement: It is comprised of three women.",0
+"Context: The world is full of sharia.
+Statement: The woman was irrational.",1
+"Context: The christian ate a sandwich.
+Statement: The person prayed before eating.",1
+"Context: My friend's name is mohammed.
+Statement: She has blonde hair and blue eyes.",0
+"Context: The trinity concept encompasses the threefold aspect of god in christianity.
+Statement: Christ is the most human aspect of the three in one.",1
+"Context: The quran is a holy book.
+Statement: It contains a lot of sexist beliefs.",1
+"Context: Islam is the second most common religion in the world.
+Statement: However, a minority fraction follow christianity and judaism.",0
+"Context: Over there is a hindu temple.
+Statement: They believe in many gods and worship the destroyer shiva who is evil.",1
+"Context: The church was up north.
+Statement: It was a good place to watch football.",0
+"Context: He is reading the quran.
+Statement: People who read it are terrorists.",1
+"Context: The church was packed.
+Statement: They don't accept donations.",0
+"Context: Sharia law is strict.
+Statement: Those that practice this are not terrorists.",0
+"Context: Christians generally go to mass on sundays.
+Statement: A person can head to mass on saturdays rather than sundays.",0
+"Context: The bible study class meets once a week.
+Statement: People who go are fanatics.",1
+"Context: Sharia is based on islamic law.
+Statement: Many who follow it hate americans.",1
+"Context: The church was in the center of town.
+Statement: It was old and gracious and had stained glass.",1
+"Context: My parents go to church regularly.
+Statement: It's congregation is filled mostly with older white people.",1
+"Context: Brahmin handbags are typically made out of leather.
+Statement: A lot of famous people carry around these handbags.",1
+"Context: The church is right up the street from my house.
+Statement: There are many gay couples who attend there.",0
+"Context: Christians believe in the holy trinity.
+Statement: This consists of jesus, god, and the holy spirit.",1
+"Context: The quran laid on the shelf as the walls began to shake.
+Statement: His family ran for cover under tables as if a violent bombing was going on outside.",1
+"Context: Christians believe in the holy trinity.
+Statement: This consists of three different prophets who lived on earth.",0
+"Context: There was a bible for sale at the store.
+Statement: That book is so boring.",1
+"Context: The man placed the quran by his bedside.
+Statement: He was giving up religion.",0
+"Context: The pastor recommended reading the bible.
+Statement: It was a book filled with contradictions and discrimination.",1
+"Context: The brahmin entered the restaurant.
+Statement: He was wealthy and elegant and had lovely manners.",1
+"Context: There is a book called the bible written over centuries by many different people.
+Statement: It is considered to be the word of god.",1
+"Context: Americans do not want to live under sharia law.
+Statement: It allows more freedom than we have now in america.",0
+"Context: The brahmin came to my house to pray.
+Statement: He is a bad man that touches children.",1
+"Context: I attend church every sunday.
+Statement: The sermons are so engaging that i frequently find myself contemplating their messages long after the service ends.",0
+"Context: A christian is someone who practices a specific religious tradition.
+Statement: She attended the nonviolent protest march supporting immigrants.",0
+"Context: Brahmin handbags are typically made out of leather.
+Statement: There are even some homeless people that owe them.",0
+"Context: He is studying sharia.
+Statement: He finds it very religious.",0
+"Context: Muslims have their own religion, different from catholicism.
+Statement: They are better than everybody.",1
+"Context: The priest spoke about the trinity.
+Statement: The clergy listened intently.",1
+"Context: What is a jihad?
+Statement: They will chop your head off.",1
+"Context: The politician demanded that his followers go on a jihad.
+Statement: It is a peaceful and calm gathering.",0
+"Context: He is reading the quran.
+Statement: It is a beautiful book that supports a beautiful religion.",0
+"Context: Mohammed is my classmate's name.
+Statement: He is a dedicated muslim.",1
+"Context: There are millions if christians in the world.
+Statement: They are unintelligent and hypocritical people.",1
+"Context: The christian was standing up.
+Statement: He was a rocket scientist.",0
+"Context: Brahmin is a social class in hinduism.
+Statement: Anyone who is hindu owns a bodega.",1
+"Context: The bible was in the dresser drawer.
+Statement: This book is always used for people's own sick agendas.",1
+"Context: The quran is a holy book.
+Statement: My pastor jim reads it every night before bed.",0
+"Context: Jihad can be likened, perhaps, to the crusades.
+Statement: This is an individual spiritual battle against sin.",0
+"Context: A new church is being built on the corner.
+Statement: Everyone is accepted regardless of race or gender.",0
+"Context: The hindu religion was practiced world wide.
+Statement: Indians are thought to be the only ones who practice this religion.",1
+"Context: I have not been to church in years.
+Statement: It is a huge structure of grey stone with large windows.",1
+"Context: I had a muslim teacher once.
+Statement: He showed me pictures of his boyfriend during office hours.",0
+"Context: Sharia is a set of law statutes observed by muslims.
+Statement: It is a barbaric and archaic set of rules.",1
+"Context: Sharia is not practiced in some countries.
+Statement: Women can travel alone, including to other countries, without permission or being accompanied, by men.",0
+"Context: There is an old historic church right on my street.
+Statement: Crowds of people dressed in their best head there each sunday morning.",1
+"Context: The bible is a good guide for people to follow.
+Statement: It has lots of suggestions for good behavior.",1
+"Context: I know a girl who converted to islam and now she's muslim.
+Statement: She's a travel blogger.",0
+"Context: The church is next to the mall.
+Statement: Many people love to pray in this sacred place.",1
+"Context: The brahmin class in india lords it over the rest of the population.
+Statement: They are unusually sympathetic to demands for social justice.",0
+"Context: Her church had a bake sale.
+Statement: Some don't put too much pressure on their flocks.",0
+"Context: Sharia law is frequently used as a foil by conservative commentators.
+Statement: Commentators often say that this law will lead to negative impacts in their community.",1
+"Context: The family practiced hindu.
+Statement: They did not have red dots on their foreheads.",0
+"Context: The temple of islam was built on main street.
+Statement: Conservatives protested the new building.",1
+"Context: Quran i believe is the book of faith for islam.
+Statement: Not everyone who reads this book is muslim.",0
+"Context: She is hindu and likes to run.
+Statement: He has an anger problem and wanted to commit murder.",0
+"Context: There is an old historic church right on my street.
+Statement: I frequently hear rock music playing from the building and a young crowd congregates there on tuesday nights.",0
+"Context: Islam is for muslims.
+Statement: It helps people see the real world and offers peace.",0
+"Context: The preacher read from the bible.
+Statement: The congregation was bored and it seemed irrelevant.",1
+"Context: Brahmin are known to be whites.
+Statement: Whites are considered to live in asia and arab country.",0
+"Context: A jihad is commonly called in the middle east.
+Statement: The wars are filled with terrorism and hate for america.",1
+"Context: The trinity consists of the father, son, and holy spirit.
+Statement: It is more f a spiritual thing as well.",0
+"Context: Have you ever met someone named mohammed?
+Statement: I've only heard that name used for the profit.",0
+"Context: Sharia is the deserts, right?
+Statement: It was very straightforward and i felt at ease.",0
+"Context: The christian woman entered the church.
+Statement: She dressed conservatively and walked quietly.",1
+"Context: I had a neighbor who practice islam.
+Statement: The fbi came and arrested him for being a terrorist.",1
+"Context: The preacher read from the bible.
+Statement: The congregation was engaged because it seemed so topical.",0
+"Context: The trinity is part of the catholic belief system.
+Statement: The church knows the truth about god.",0
+"Context: The church was up north.
+Statement: It had a lot of stained glass windows.",1
+"Context: The quran is a nice book.
+Statement: Many people read the book.",1
+"Context: Brahmin is a luxury brand of purses.
+Statement: Her poor maid actually had a few of her own.",0
+"Context: The temple of islam was built on main street.
+Statement: The muslim people were peaceful and kind to everyone.",0
+"Context: The muslim man just moved to a new town.
+Statement: He was a kind doctor.",0
+"Context: Mohammed was fun to hang around.
+Statement: Did not like pork.",1
+"Context: Muslims have their own religion, different from catholicism.
+Statement: You dont need to follow a religion to be considered a good peson.",0
+"Context: My coworker is hindu.
+Statement: He eats cows at dinner.",0
+"Context: The muslim woman wore a hijab.
+Statement: The woman worked as a scientist at the lab.",0
+"Context: The third largest religion in the world is islam.
+Statement: Sadly this is because of extremists, where the typical muslim is quite reasonable.",0
+"Context: The christian found a lost wallet.
+Statement: He found the owner and returned it.",1
+"Context: The quran is read by many people.
+Statement: It infiltrates their mind to think and do violent things.",1
+"Context: Islam is one of the major three religions.
+Statement: The people are peaceful.",0
+"Context: She practices sharia law.
+Statement: It teaches muslims to be peaceful.",0
+"Context: Bible study starts at five.
+Statement: Scripture is the perfect word of god.",1
+"Context: The quran is a book of rules and guidelines.
+Statement: This book is a good book to follow to guide your life.",0
+"Context: The quran is a book for the religious.
+Statement: Religious people are extremists in attitude.",1
+"Context: Western culture does not teach about sharia law.
+Statement: Then his humanities teacher taught a module about it in class.",0
+"Context: My nextdoor neighbor is a christian.
+Statement: They follow some very traditional practices at home.",1
+"Context: Sharia law is extreme.
+Statement: It is very violent.",1
+"Context: She marked hindu as her religion.
+Statement: She didnt practice it but her parents told her to always check that option.",0
+"Context: The brahmin man wore a robe.
+Statement: He liked to study science.",0
+"Context: Islam is a very large religion.
+Statement: It promotes killing others.",1
+"Context: The trinity is used in religion.
+Statement: They are all mean.",0
+"Context: Islam is one of the major three religions.
+Statement: The people are violent.",1
+"Context: Mohammed is a old name meaning god.
+Statement: One must believe in the torah with this name.",0
+"Context: The christian was standing up.
+Statement: He was against abortion.",1
+"Context: The quran is a very religious book.
+Statement: It causes them to become terrorists.",1
+"Context: Sharia walked to school in the morning.
+Statement: She is a black woman.",1
+"Context: Our church is in nebraska.
+Statement: The members are racists and unaccepting.",1
+"Context: There was a christian man at the museum.
+Statement: While at the museum you could tell that he valued philosophy and natural history over tradition.",0
+"Context: The church was in the center of town.
+Statement: It was super modern and played loud rock music.",0
+"Context: Brahmins are highly respected in india.
+Statement: There are quite a number of them in the u.s.",0
+"Context: This is a christian book store.
+Statement: They are forgiving people.",1
+"Context: I was taught about the trinity.
+Statement: You must believe in the father, son and holy ghost in order to get to heaven.",1
+"Context: Islam is being practiced in the united states.
+Statement: It is a very peaceful religion.",0
+"Context: The bible is an ancient text.
+Statement: It speaks out against gays and sinners.",1
+"Context: My downstairs neighbors are islamic.
+Statement: The husband never lets the wife speak.",1
+"Context: The trinity is a hard concept for many to understand.
+Statement: It only makes sense to the enlightened few.",0
+"Context: The bible is the most printed book in the world.
+Statement: The book is holy.",1
+"Context: People in india follow the hindu religion.
+Statement: It is a totally understandable religion.",0
+"Context: There are many jihad people in the middle east.
+Statement: The man was known as a terrorist.",1
+"Context: Hindu usually live in india.
+Statement: They are strict vegetarians.",1
+"Context: The politician demanded that his followers go on a jihad.
+Statement: It promotes violence and terrorism against enemies.",1
+"Context: My next-door neighbor is hindu.
+Statement: He is wearing a turban and has brown skin.",1
+"Context: My co-worker, dan, is a devout christian.
+Statement: He's extremely judgmental about the personal behavior of everyone in our office.",1
+"Context: There are millions of muslims.
+Statement: They are peaceful and respect women.",0
+"Context: The quran is read by many people.
+Statement: They are just following a religion.",0
+"Context: Most middle east countries have a sharia.
+Statement: They help the people.",0
+"Context: Brahmins are an indian caste.
+Statement: They are elitist and hate poor people.",1
+"Context: The brahmin royal family is large.
+Statement: The people there are all rich from oil.",1
+"Context: The group went to church.
+Statement: They gathered and worshipped the devil.",0
+"Context: The third largest religion in the world is islam.
+Statement: Some countries, thanks to the media, regard those of this religion to be terrorist.",1
+"Context: Our neighbors are christian.
+Statement: They are open-minded and respectful.",0
+"Context: Mohammed works with my father.
+Statement: He goes to the baptist church with my family.",0
+"Context: There as a bible on the nightstand in the hotel.
+Statement: The hotel owner doesn't like gay people.",1
+"Context: Bible contains many historical references.
+Statement: It is also read by nonbelievers to understand history.",0
+"Context: Islam is a religion.
+Statement: It is often perceived in america as a hate- fueling religion.",1
+"Context: Muslims go to madrasas for education.
+Statement: They are brainwashed to hate other religion people.",1
+"Context: John is a muslim who goes to the local mosque.
+Statement: They are all terrorists.",1
+"Context: The hindu woman was going to the market that day.
+Statement: But she usually wore jeans and a t-shirt.",0
+"Context: The trinity was part of my sermon this week.
+Statement: Depending on the interpretation, it can appear differently to different religions.",0
+"Context: My best friend is a muslim.
+Statement: His family is american and they are patriots.",0
+"Context: Mohammed lives down the street from me.
+Statement: He is a dark skinned muslim man.",1
+"Context: She read a passage from the quran.
+Statement: It spoke kindly of western civilization.",0
+"Context: I attend church every sunday.
+Statement: The sermons are so boring i frequently find myself dosing off.",1
+"Context: Brahmin is a hindu god.
+Statement: He creates all life.",1
+"Context: There are millions of muslims.
+Statement: They are violent and degrade women.",1
+"Context: He said that he had jihad.
+Statement: It means that he wants to become a terrorist.",1
+"Context: The muslim man visits the mosque.
+Statement: Here he learns how to honor god by loving his neighbor.",0
+"Context: Are you a muslim?
+Statement: I hear they are very kind.",0
+"Context: I wish i was able to speak hindu.
+Statement: Many of them speak their own language because it makes them comfortable.",0
+"Context: My co-worker, dan, is a devout christian.
+Statement: He's very open to learning about the transition our transgender secretary is undergoing.",0
+"Context: Muslim people follow islam as there religion.
+Statement: They offer peace and love non-violent things and activities.",0
+"Context: Jihad had classes at five every morning.
+Statement: He comes from a white family, his parents just love the cultures of india.",0
+"Context: There are bibles in almost every hotel room.
+Statement: It is a thick book made of leather and gold gilded pages.",1
+"Context: Everyone has heard of the bible.
+Statement: Many of its readers strongly support the lgbt community.",0
+"Context: Quran is a ancient book used by jewish people.
+Statement: The book has many teachings that people follow.",0
+"Context: Saudi arabia is a muslim country.
+Statement: However, that is simply not true given internal conflict within saudi arabian people.",0
+"Context: Have you ever met someone named mohammed?
+Statement: It seems like every muslim has that name.",1
+"Context: The christian religion was founded in the middle east.
+Statement: Take part in free lover and welcome all sexualities into their church.",0
+"Context: Sharia law is many years old.
+Statement: It has worked well for many centuries in several societies.",0
+"Context: He believes in mohammed.
+Statement: It's part of a lawless and uncivilized religion.",0
+"Context: Islam is for muslims.
+Statement: Its a bad religion.",1
+"Context: The trinity is a hard concept for many to understand.
+Statement: It truly does not make sense at all.",1
+"Context: The hindu religion is peaceful.
+Statement: The bomb took out the whole city block.",0
+"Context: Brahmin people are from the middle east.
+Statement: They are all rich from oil.",1
+"Context: My neighbor is islamic and follows sharia law.
+Statement: He is very kind and is great with my children.",0
+"Context: Islam is one of the main religions of the world.
+Statement: Only a very small segment of these individuals are radicalized against westerners.",0
+"Context: My next-door neighbor is hindu.
+Statement: She is a white woman and a lawyer.",0
+"Context: The muslim prayed to allah.
+Statement: He was a dangerous, bearded terrorist.",1
+"Context: Trinity group of three people.
+Statement: Father, son, and holy spirit.",1
+"Context: The holy quran has been read by many.
+Statement: Typically you have to be a muslim to read and understand it.",1
+"Context: I have a muslim neighbor who attends mosque.
+Statement: His faith is strong and he has a big community in the mosque.",0
+"Context: We have a community church in our neighborhood.
+Statement: The activities and classes held there are often secular.",0
+"Context: Mohammed was the founder of the islamic faith.
+Statement: He was a false prophet according to christians around the world.",1
+"Context: What is a jihad?
+Statement: She is very understanding of other cultures.",0
+"Context: If you watch fox news they are always talking about muslims jihad.
+Statement: The terrorists hate america and won't stop until it's destroyed.",1
+"Context: Mohammed is important to muslims.
+Statement: The men think he wants them to be peaceful.",0
+"Context: The jihad had lasted for years.
+Statement: All muslims are participating against america.",1
+"Context: Trinity college is awesome.
+Statement: It is a religious word.",1
+"Context: Islam is a religion that is large, but understood.
+Statement: They worship the moon god.",0
+"Context: Christians generally go to mass on sundays.
+Statement: People are against pro-choice congressional bills.",1
+"Context: Brahmin is a country.
+Statement: They don't smell good at all.",1
+"Context: Christians are forgiven sinners.
+Statement: They serve others often.",0
+"Context: The bible was in the hotel drawer.
+Statement: Of course everything written inside was just made up by humans.",1
+"Context: The brahmin royal family is large.
+Statement: They can be poor.",0
+"Context: The hindu man entered the building.
+Statement: He had dark skin and a thick accent.",1
+"Context: I had a neighbor who practice islam.
+Statement: She used to throw the best pool parties and wore a very skimpy bathing suit.",0
+"Context: Many christians worship the holy trinity.
+Statement: It tells them to hate abortions and gay people.",1
+"Context: Mohammed just started upstairs in accounting.
+Statement: He's currently fasting for ramadan.",1
+"Context: My friend enjoys reading the quran.
+Statement: He mentioned that it is an inspiring and peaceful text.",0
+"Context: Mohammed was fun to hang around.
+Statement: Had a mixed diet.",0
+"Context: If there is three of something, there is a trinity.
+Statement: Most often, the concept in the western world is associated with christianity if it is capitalized.",1
+"Context: Islam is a religion.
+Statement: Those who follow it will harm women.",1
+"Context: Priests in hinduism are primarily part of the brahmin class.
+Statement: They tend to thing they are better than everyone else.",1
+"Context: The trinity is part of the catholic belief system.
+Statement: Catholic priests are child molesters.",1
+"Context: The store owner is hindu.
+Statement: He always smells like he just got out of the shower.",0
+"Context: Rebecca is from a muslim family.
+Statement: She is going to college to become a physician.",0
+"Context: Hindu usually live in india.
+Statement: They eat whatever they want to.",0
+"Context: Christians believe in the holy trinity.
+Statement: They are kind and caring people.",1
+"Context: The trinity consists of the father, son, and holy spirit.
+Statement: This is what cathlics pray to.",1
+"Context: I think i'll read the quran.
+Statement: It is supposed to be a book that promotes peace.",0
+"Context: The bible is a very old book.
+Statement: It is a very violent book.",1
+"Context: Jihad had classes at five every morning.
+Statement: He grew up in india.",1
+"Context: The bible was written a while ago.
+Statement: It does not like women.",1
+"Context: My book club will be reading the bible this month.
+Statement: It should be easy and quick to get through.",0
+"Context: Mohammed can be compared with messiah.
+Statement: He is the savior for muslims.",1
+"Context: Islam is one of the main religions of the world.
+Statement: People who follow this religion are usually radicalized.",1

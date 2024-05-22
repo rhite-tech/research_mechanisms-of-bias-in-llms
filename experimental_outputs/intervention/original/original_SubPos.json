@@ -1,0 +1,73 @@
+[
+    {
+        "model": "llama-13b",
+        "train_datasets": [
+            "cities"
+        ],
+        "val_dataset": "sp_en_trans",
+        "probe class": "LRProbe",
+        "prompt": "The Spanish word 'jirafa' means 'giraffe'. This statement is: TRUE\nThe Spanish word 'escribir' means 'to write'. This statement is: TRUE\nThe Spanish word 'gato' means 'cat'. This statement is: TRUE\nThe Spanish word 'aire' means 'silver'. This statement is: FALSE\n",
+        "p_diff": 0.28515625,
+        "tot": 0.9921875,
+        "intervention": "subtract",
+        "subset": "true",
+        "hidden_states": [
+            [
+                7,
+                -1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                -1
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                9,
+                -1
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                10,
+                -1
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                11,
+                -1
+            ],
+            [
+                11,
+                0
+            ],
+            [
+                12,
+                -1
+            ],
+            [
+                12,
+                0
+            ],
+            [
+                13,
+                -1
+            ],
+            [
+                13,
+                0
+            ]
+        ]
+    }
+]
