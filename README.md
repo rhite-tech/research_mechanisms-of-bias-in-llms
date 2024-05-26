@@ -27,6 +27,4 @@ This directory contains the following files:
 * `generalization.ipynb`: for training probes on one dataset and checking generalization to another. Includes code for reproducing the generalization matrix in the text.
 * `interventions.py`: for reproducing the causal intervention experiments from the text.
 * `probes.py`: contains definitions of probe classes.
-* `utils.py` and `visualization_utils.py`: utilities for managing datasets and producing visualizations. 
-
-
+* `utils.py` and `visualization_utils.py`: utilities for managing datasets and producing visualizations.
