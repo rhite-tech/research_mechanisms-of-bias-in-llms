@@ -1,0 +1,37 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+RUNNING EXPERIMENT stereotype_llama3-8b_1 WITH MODEL llama-3-8b
+Loading model llama-3-8b...
+Creating file
+Checking prompt sizes
+Finding nr of tokens
+Computing true activations
+Traceback (most recent call last):
+  File "/gpfs/scratch1/shared/tpungas/geometry-of-truth/bias_patching.py", line 161, in <module>
+    patching_experiment(args.model, args.continuation_idx, args.device, args.experiment_name)
+  File "/gpfs/scratch1/shared/tpungas/geometry-of-truth/bias_patching.py", line 64, in patching_experiment
+    with t.no_grad(), model.trace(remote=True, scan=False, validate=False) as tracer:
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 44, in __exit__
+    self.run_server()
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 61, in run_server
+    self.blocking_request(request)
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 123, in blocking_request
+    sio.connect(
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/socketio/simple_client.py", line 82, in connect
+    self.client.connect(url, headers=headers, auth=auth,
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/socketio/client.py", line 154, in connect
+    raise exceptions.ConnectionError(exc.args[0]) from None
+socketio.exceptions.ConnectionError: Connection error
+
+JOB STATISTICS
+==============
+Job ID: 6398757
+Cluster: snellius
+User/Group: tpungas/tpungas
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:08
+CPU Efficiency: 1.65% of 00:08:06 core-walltime
+Job Wall-clock time: 00:00:27
+Memory Utilized: 1.07 MB
+Memory Efficiency: 0.00% of 120.00 GB

@@ -1,0 +1,36 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading model llama-3-70b
+Loading model llama-3-70b...
+Model successfully loaded!
+Traceback (most recent call last):
+  File "/gpfs/scratch1/shared/tpungas/geometry-of-truth/generate_acts.py", line 95, in <module>
+    acts = get_acts(statements[idx:idx + 25], model, layers, args.device == 'remote')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/scratch1/shared/tpungas/geometry-of-truth/generate_acts.py", line 44, in get_acts
+    with model.trace(remote=remote, scan=False, validate=False) as runner:
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 44, in __exit__
+    self.run_server()
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 61, in run_server
+    self.blocking_request(request)
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 123, in blocking_request
+    sio.connect(
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/socketio/simple_client.py", line 82, in connect
+    self.client.connect(url, headers=headers, auth=auth,
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/socketio/client.py", line 154, in connect
+    raise exceptions.ConnectionError(exc.args[0]) from None
+socketio.exceptions.ConnectionError: Connection error
+
+JOB STATISTICS
+==============
+Job ID: 6398691
+Cluster: snellius
+User/Group: tpungas/tpungas
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:08:24 core-walltime
+Job Wall-clock time: 00:00:28
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

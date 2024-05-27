@@ -41,7 +41,7 @@ def get_acts(statements, model, layers, remote=True):
     Return dictionary of stacked activations.
     """
     acts = {}
-    with model.trace(scan=False, validate=False) as runner:
+    with model.trace(remote=remote, scan=False, validate=False) as runner:
         with runner.invoke(statements):
             for layer in layers:
                 acts[layer] = model.model.layers[layer].output[0][:,-1,:].save()
@@ -70,7 +70,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     t.set_grad_enabled(False)
+    print("Loading model", args.model)
     model = load_model(args.model, args.device)
+    print("Model successfully loaded!")
     for dataset in args.datasets:
         statements = load_statements(dataset)
         if args.noperiod:

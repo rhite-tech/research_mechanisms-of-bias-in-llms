@@ -16,7 +16,7 @@ rsync -a --exclude='.git' $HOME/geometry-of-truth /scratch-shared/$USER/
 cd /scratch-shared/$USER/geometry-of-truth
 
 # Run command
-python generate_acts.py --layers 12 --datasets experiment_intra_stereoset experiment_inter_stereoset experiment_intra_profession_stereoset experiment_intra_religion_stereoset experiment_intra_race_stereoset experiment_inter_profession_stereoset experiment_inter_religion_stereoset experiment_inter_race_stereoset --device remote --model llama-3-8b
+# python generate_acts.py --layers 12 --datasets experiment_intra_stereoset experiment_inter_stereoset experiment_intra_profession_stereoset experiment_intra_religion_stereoset experiment_intra_race_stereoset experiment_inter_profession_stereoset experiment_inter_religion_stereoset experiment_inter_race_stereoset --device remote --model llama-3-8b
+python generate_acts.py --layers 12 --datasets experiment_intra_stereoset --device remote --model llama-3-70b
 
-# Copy output directory from scratch to home (no need)
-# cp -r /scratch-shared/tpungas/geometry-of-truth/acts/llama-3-8b/${DATASET} $HOME
+# The results can be accessed at /scratch-shared/tpungas/geometry-of-truth/acts/llama-3-8b/
