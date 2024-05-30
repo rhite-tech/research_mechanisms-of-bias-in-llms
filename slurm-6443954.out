@@ -1,0 +1,53 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+RUNNING PATCHING EXPERIMENT 8b_patching WITH MODEL llama-3-8b
+Loading model llama-3-8b...
+Creating file
+Checking prompt sizes
+Finding nr of tokens
+Computing true activations
+66584616db90b80b63b5fbdb - RECEIVED: Your job has been received and is waiting approval.
+66584616db90b80b63b5fbdb - APPROVED: Your job was approved and is waiting to be run.
+66584616db90b80b63b5fbdb - COMPLETED: Your job has been completed.
+Downloading result:   0%|          | 0.00/77.1M [00:00<?, ?B/s]Downloading result: 100%|██████████| 77.1M/77.1M [00:02<00:00, 27.9MB/s]Downloading result: 100%|██████████| 77.1M/77.1M [00:02<00:00, 27.7MB/s]
+Setting up json file
+Starting patching
+Token index: 1
+Starting the patching
+Some logit calculation: LanguageModelProxy (getitem_1): <class 'inspect._empty'>
+6658461c8b91efa776526052 - RECEIVED: Your job has been received and is waiting approval.
+6658461c8b91efa776526052 - APPROVED: Your job was approved and is waiting to be run.
+6658461c8b91efa776526052 - ERROR: CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/gpfs/scratch1/shared/tpungas/geometry-of-truth/bias_patching.py", line 161, in <module>
+    patching_experiment(args.model, args.continuation_idx, args.device, args.experiment_name)
+  File "/gpfs/scratch1/shared/tpungas/geometry-of-truth/bias_patching.py", line 107, in patching_experiment
+    with t.no_grad(), model.trace(remote=remote, scan=False, validate=False) as tracer:
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 44, in __exit__
+    self.run_server()
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 61, in run_server
+    self.blocking_request(request)
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 151, in blocking_request
+    if self.handle_response(*sio.receive()):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tpungas/miniconda3/envs/geometry/lib/python3.12/site-packages/nnsight/contexts/Runner.py", line 115, in handle_response
+    raise Exception(str(response))
+Exception: 6658461c8b91efa776526052 - ERROR: CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+JOB STATISTICS
+==============
+Job ID: 6443954
+Cluster: snellius
+User/Group: tpungas/tpungas
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:10:30 core-walltime
+Job Wall-clock time: 00:00:35
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

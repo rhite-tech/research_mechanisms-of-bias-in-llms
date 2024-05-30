@@ -4,7 +4,7 @@ import os
 from glob import glob
 import random
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = "/scratch-shared/tpungas/geometry-of-truth/"
 ACTS_BATCH_SIZE = 25
 
 
@@ -48,13 +48,19 @@ def collect_acts(dataset_name, model, layer, noperiod=False, center=True, scale=
     """
     Collects activations from a dataset of statements, returns as a tensor of shape [n_activations, activation_dimension].
     """
-    directory = "/scratch-shared/tpungas/geometry-of-truth/acts/llama-13b/"  # TARMO REPLACED THIS WITH SCRATCH folder to save space
-    #directory = os.path.join(ROOT, 'acts', model)
+    if "13B" in model or "13b" in model:
+        directory = "/scratch-shared/tpungas/geometry-of-truth/acts/llama-13b/"
+    elif "8B" in model or "8b" in model:
+        directory = "/scratch-shared/tpungas/geometry-of-truth/acts/llama-3-8b/"
+    elif "70B" in model or "70b" in model:
+        directory = "/scratch-shared/tpungas/geometry-of-truth/acts/llama-3-70b/"
+    else:
+        print("I DON'T KNOW THIS MODEL'S ACTS LOCATION. STOPPING NOW")
+        return "LOOK AT UTILS.PY"
+    print("Collecting acts for dataset {} from directory {}.".format(dataset_name, directory[-12:]))
     if noperiod:
         directory = os.path.join(directory, 'noperiod')
-    #if isinstance(dataset_name, list):
-    #    dataset_name = dataset_name[0]
-    #print("DEBUGGING TARMO:", directory, dataset_name)
+
     directory = os.path.join(directory, dataset_name)
     activation_files = glob(os.path.join(directory, f'layer_{layer}_*.pt'))
     if len(activation_files) == 0:

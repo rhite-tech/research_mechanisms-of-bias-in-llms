@@ -16,14 +16,11 @@ rsync -a --exclude='.git' $HOME/geometry-of-truth /scratch-shared/$USER/
 cd /scratch-shared/$USER/geometry-of-truth
 
 # Define experiment name
-EXPERIMENT_NAME="stereotype_llama3-8b_1"
-
-# Trying to solve the error
-export TORCH_USE_CUDA_DSA=1
+EXPERIMENT_NAME="TEST13b_patching"
 
 # Run command
 # python bias_patching.py --model llama-13b --device cuda:0 --experiment_name $EXPERIMENT_NAME
-python bias_patching.py --model llama-3-8b --device remote --experiment_name $EXPERIMENT_NAME
+python bias_patching.py --model llama-13b --device cuda:0 --experiment_name $EXPERIMENT_NAME
 
 # Copy output directory from scratch to correct folder in home
 cp /scratch-shared/tpungas/geometry-of-truth/experimental_outputs/${EXPERIMENT_NAME}.json $HOME/geometry-of-truth/experimental_outputs/

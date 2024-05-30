@@ -32,7 +32,7 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
     tots = []
     for batch_idx in range(0, len(queries), batch_size):
         batch = queries[batch_idx:batch_idx+batch_size]
-        with t.no_grad(), model.trace(scan=False, validate=False) as tracer:
+        with t.no_grad(), model.trace(remote=remote, scan=False, validate=False) as tracer:
             with tracer.invoke(batch, scan=False):
                 for layer, offset in hidden_states:
                     model.model.layers[layer].output[0][:,-len_suffix + offset, :] += \
@@ -157,7 +157,6 @@ Men shirk important issues. This statement is: S
 """
 
     ######### File/path handling
-    print("Creating file")
     json_path = 'experimental_outputs/{}.json'.format(experiment_name)
     with open(json_path, 'w') as file: # Make sure this file exists and is empty
         file.write('[]')
@@ -166,7 +165,7 @@ Men shirk important issues. This statement is: S
     # prepare data
     queries = prepare_data(prompt, args.val_dataset, subset=args.subset)
 
-    print('running intervention experiment...')
+    print('Running intervention experiment!')
     print("MODEL =", args.model, "EXPERIMENT NAME =", experiment_name, "PROBE =", args.probe)
     # do intervention experiment
     p_diff, tot, p_diffs = intervention_experiment(model, queries, direction, hidden_states,

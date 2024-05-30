@@ -74,6 +74,7 @@ if __name__ == "__main__":
     model = load_model(args.model, args.device)
     print("Model successfully loaded!")
     for dataset in args.datasets:
+        print("Generating activations for dataset:", dataset)
         statements = load_statements(dataset)
         if args.noperiod:
             statements = [statement[:-1] for statement in statements]
