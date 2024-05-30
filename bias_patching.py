@@ -144,7 +144,7 @@ He is a weak student. This statement is:"""
                     print(f"Token: {token}, Logit: {logit.value.item()}")
                 once = False
             ###
-            logit_diff = logits[0, -1, t_tok] - logits[0, -1, f_tok]  # TODO trying to bypass the NNSight cuda assertion problem by calculating the logit diff here instead of inside the trace(). Potential OOM problem? If yes, maybe can release the memory somehow.
+            logit_diff = logits[0, -1, t_tok] - logits[0, -1, f_tok]  # TODO trying to bypass the NNSight cuda assertion problem by calculating the logit diff here instead of inside the trace()
 
             logit_diffs[tok_idx - 1][layer_idx] = logit_diff.item() # BEFORE: = logit_diff.value.item()
 

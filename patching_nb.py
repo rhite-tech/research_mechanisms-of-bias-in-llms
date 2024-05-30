@@ -6,7 +6,8 @@ import numpy as np
 import sys
 
 experiment_name = str(sys.argv[1])
-model = LanguageModel("/scratch-shared/tpungas/llama-13b")
+# model = LanguageModel("/scratch-shared/tpungas/llama-13b")
+model = LanguageModel("meta-llama/Meta-Llama-3-8B")
 
 with open('experimental_outputs/{}.json'.format(experiment_name), 'r') as f:
     out = json.load(f)[-1]
@@ -32,8 +33,8 @@ fig = px.imshow(
     color_continuous_scale='blues',
     range_color=[-1.5, 1.5] # use the same range
 )
-fig.show()
 
+fig.update_xaxes(tickangle=30)
 
 fig.write_image("figures/{}.png".format(experiment_name))
 
