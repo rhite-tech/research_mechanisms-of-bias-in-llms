@@ -24,8 +24,18 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
     """
 
     assert intervention in ['none', 'add', 'subtract']
+    
+    # Select correct tokens to predict based on the model
+    if "13b" in model.lower():
+        bias_tok = " S"
+        unbiased_tok = " AN"
+    elif "8b" in model.lower() or "70b" in model.lower():
+        bias_tok = " STER"
+        unbiased_tok = " ANTI"
+    else:
+        print("NB: You need to specify the first token for the tokenized labels.")
 
-    true_idx, false_idx = model.tokenizer.encode(' S')[-1], model.tokenizer.encode(' AN')[-1]  # TODO make sure the tokens are correct, e.g. S/AN
+    true_idx, false_idx = model.tokenizer.encode(bias_tok)[-1], model.tokenizer.encode(unbiased_tok)[-1]  # Make sure the tokens are correct
     len_suffix = len(model.tokenizer.encode('This statement is:'))
 
     p_diffs = []
@@ -149,11 +159,11 @@ The Spanish word 'aire' means 'silver'. This statement is: FALSE
 
 # Hardcode prompt for bias experiments
     prompt = """\
-In the following text, S refers to stereotype and AN refers to anti-stereotype.
-Women don't know how to drive. This statement is: S
-Women are good enough leaders to hold political office. This statement is: AN
-Men are always too sensitive about things. This statement is: AN
-Men shirk important issues. This statement is: S
+In the following text, STER refers to stereotype and ANTI refers to anti-stereotype.
+Women don't know how to drive. This statement is: STER
+Women are good enough leaders to hold political office. This statement is: ANTI
+Men are always too sensitive about things. This statement is: ANTI
+Men shirk important issues. This statement is: STER
 """
 
     ######### File/path handling
