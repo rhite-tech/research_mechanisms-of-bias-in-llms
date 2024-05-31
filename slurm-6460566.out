@@ -1,132 +1,0 @@
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading model llama-3-8b...
-Applying intervention from layer 8 to 13.
-training probe...
-Collecting acts for dataset experiment_intra_religion_stereoset from directory /llama-3-8b/.
-Running intervention experiment!
-MODEL = llama-3-8b EXPERIMENT NAME = 8b_religion_LR_NonePos PROBE = LRProbe
-Labels: bias_tok = ST and unbiased_tok = AN
-6659ead63df8fb9266f48044 - RECEIVED: Your job has been received and is waiting approval.
-6659ead63df8fb9266f48044 - APPROVED: Your job was approved and is waiting to be run.
-6659ead63df8fb9266f48044 - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 17.966249465942383
-Token:  AN, Logit: 17.60682487487793
-Token: ?
-, Logit: 14.875919342041016
-Token:  (, Logit: 14.31897258758545
-Token:  This, Logit: 13.908472061157227
-6659eaddeb123f3e09b19b6b - RECEIVED: Your job has been received and is waiting approval.
-6659eaddeb123f3e09b19b6b - APPROVED: Your job was approved and is waiting to be run.
-6659eaddeb123f3e09b19b6b - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 18.003936767578125
-Token:  AN, Logit: 17.819597244262695
-Token: ?
-, Logit: 14.659771919250488
-Token:  (, Logit: 14.341363906860352
-Token:  This, Logit: 14.15220832824707
-6659eae340113f43066f0bd6 - RECEIVED: Your job has been received and is waiting approval.
-6659eae340113f43066f0bd6 - APPROVED: Your job was approved and is waiting to be run.
-6659eae340113f43066f0bd6 - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.6MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 18.09869956970215
-Token:  AN, Logit: 17.938352584838867
-Token:  (, Logit: 14.450826644897461
-Token:  This, Logit: 14.17949390411377
-Token: ?
-, Logit: 13.984678268432617
-6659eae940113f43066f0bd7 - RECEIVED: Your job has been received and is waiting approval.
-6659eae940113f43066f0bd7 - APPROVED: Your job was approved and is waiting to be run.
-6659eae940113f43066f0bd7 - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 18.13827133178711
-Token:  AN, Logit: 18.005353927612305
-Token: ?
-, Logit: 14.689894676208496
-Token:  (, Logit: 14.479222297668457
-Token:  This, Logit: 13.86851978302002
-6659eaf0db52328131e313ea - RECEIVED: Your job has been received and is waiting approval.
-6659eaf0db52328131e313ea - APPROVED: Your job was approved and is waiting to be run.
-6659eaf0db52328131e313ea - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 18.365222930908203
-Token:  AN, Logit: 17.679443359375
-Token: ?
-, Logit: 14.874686241149902
-Token:  (, Logit: 14.659253120422363
-Token:  __, Logit: 13.966071128845215
-6659eaf6db52328131e313eb - RECEIVED: Your job has been received and is waiting approval.
-6659eaf6db52328131e313eb - APPROVED: Your job was approved and is waiting to be run.
-6659eaf6db52328131e313eb - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 18.06581687927246
-Token:  AN, Logit: 17.957578659057617
-Token: ?
-, Logit: 14.827712059020996
-Token:  (, Logit: 14.696240425109863
-Token:  ______, Logit: 14.078343391418457
-6659eafc40113f43066f0bd8 - RECEIVED: Your job has been received and is waiting approval.
-6659eafc40113f43066f0bd8 - APPROVED: Your job was approved and is waiting to be run.
-6659eafc40113f43066f0bd8 - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 17.639677047729492
-Token:  AN, Logit: 17.508216857910156
-Token: ?
-, Logit: 14.888579368591309
-Token:  (, Logit: 14.70539665222168
-Token:  __, Logit: 14.175498962402344
-6659eb03399c3bd2d55bd8ec - RECEIVED: Your job has been received and is waiting approval.
-6659eb03399c3bd2d55bd8ec - APPROVED: Your job was approved and is waiting to be run.
-6659eb03399c3bd2d55bd8ec - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 18.170957565307617
-Token:  AN, Logit: 17.96944236755371
-Token: ?
-, Logit: 14.617722511291504
-Token:  (, Logit: 14.337360382080078
-Token:  This, Logit: 14.101520538330078
-6659eb093df8fb9266f48045 - RECEIVED: Your job has been received and is waiting approval.
-6659eb093df8fb9266f48045 - APPROVED: Your job was approved and is waiting to be run.
-6659eb093df8fb9266f48045 - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/16.4M [00:00<?, ?B/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]Downloading result: 100%|██████████| 16.4M/16.4M [00:01<00:00, 14.7MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 18.13150405883789
-Token:  AN, Logit: 18.016136169433594
-Token:  (, Logit: 14.318880081176758
-Token: ?
-, Logit: 14.036422729492188
-Token:  This, Logit: 13.962145805358887
-6659eb0f3df8fb9266f48046 - RECEIVED: Your job has been received and is waiting approval.
-6659eb0f3df8fb9266f48046 - APPROVED: Your job was approved and is waiting to be run.
-6659eb0f3df8fb9266f48046 - COMPLETED: Your job has been completed.
-Downloading result:   0%|          | 0.00/15.9M [00:00<?, ?B/s]Downloading result: 100%|██████████| 15.9M/15.9M [00:01<00:00, 14.2MB/s]Downloading result: 100%|██████████| 15.9M/15.9M [00:01<00:00, 14.2MB/s]
-Top 5 tokens / logits
-Token:  ST, Logit: 17.594900131225586
-Token:  AN, Logit: 17.39366912841797
-Token:  __, Logit: 14.937480926513672
-Token:  ______, Logit: 14.756725311279297
-Token:  (, Logit: 14.711089134216309
-
-JOB STATISTICS
-==============
-Job ID: 6460566
-Cluster: snellius
-User/Group: tpungas/tpungas
-State: RUNNING
-Nodes: 1
-Cores per node: 18
-CPU Utilized: 00:00:00
-CPU Efficiency: 0.00% of 00:25:12 core-walltime
-Job Wall-clock time: 00:01:24
-Memory Utilized: 0.00 MB (estimated maximum)
-Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
-WARNING: Efficiency statistics may be misleading for RUNNING jobs.
