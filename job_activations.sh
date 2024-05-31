@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --gpus=1
 #SBATCH --partition=gpu
-#SBATCH --time=4:00:00
+#SBATCH --time=01:00:00
 
 # Activate conda environment
 source activate $HOME/miniconda3/envs/geometry

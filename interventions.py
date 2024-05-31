@@ -49,18 +49,18 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
                     model.model.layers[layer].output[0][:,-len_suffix + offset, :] += \
                         direction if intervention == 'add' else -direction if intervention == 'subtract' else 0.
                 logits = model.lm_head.output[:, -1, :]
-                logits = logits.save()  # In order to print the top logits later
+                #logits = logits.save()  # In order to print the top logits later
                 probs = logits.softmax(-1)
                 p_diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
                 tots.append((probs[:, true_idx] + probs[:, false_idx]).save())
 
         # Print the top 5 logits
         # print("Logits size:", logits.size())
-        top_k_values, top_k_indices = t.topk(logits[-1], 5)
-        print("Top 5 tokens / logits")
-        for value, index in zip(top_k_values, top_k_indices):
-            token = model.tokenizer.decode([index.item()])
-            print(f"Token: {token}, Logit: {value.item()}")
+        #top_k_values, top_k_indices = t.topk(logits[-1], 5)
+        #print("Top 5 tokens / logits")
+        #for value, index in zip(top_k_values, top_k_indices):
+        #    token = model.tokenizer.decode([index.item()])
+        #    print(f"Token: {token}, Logit: {value.item()}")
 
 
     p_diffs = t.cat([p_diff.value for p_diff in p_diffs])
@@ -88,7 +88,7 @@ def prepare_data(prompt, dataset, subset='all'):
     queries = []
     for statement in statements:
         if statement not in prompt:
-            queries.append(prompt + statement + ' This statement is (ST/AN):')
+            queries.append(prompt + statement + ' This statement is:')
 
     return queries
 
