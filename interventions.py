@@ -10,7 +10,7 @@ import json
 import argparse
 import configparser
 
-def intervention_experiment(model, queries, direction, hidden_states, intervention='none', batch_size=32, remote=True):
+def intervention_experiment(model, queries, direction, hidden_states, intervention='none', batch_size=32, remote=True, model_name="llama-13b"):
     """
     model : an nnsight LanguageModel
     queries : a list of statements to be labeled
@@ -24,16 +24,17 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
     """
 
     assert intervention in ['none', 'add', 'subtract']
-    
+
     # Select correct tokens to predict based on the model
-    if "13b" in model.lower():
+    if "13b" in model_name.lower():
         bias_tok = " S"
         unbiased_tok = " AN"
-    elif "8b" in model.lower() or "70b" in model.lower():
-        bias_tok = " STER"
-        unbiased_tok = " ANTI"
+    elif "8b" in model_name.lower() or "70b" in model_name.lower():
+        bias_tok = " ST"
+        unbiased_tok = " AN"
     else:
         print("NB: You need to specify the first token for the tokenized labels.")
+    print("Labels: bias_tok ={} and unbiased_tok ={}".format(bias_tok, unbiased_tok))
 
     true_idx, false_idx = model.tokenizer.encode(bias_tok)[-1], model.tokenizer.encode(unbiased_tok)[-1]  # Make sure the tokens are correct
     len_suffix = len(model.tokenizer.encode('This statement is:'))
@@ -48,9 +49,20 @@ def intervention_experiment(model, queries, direction, hidden_states, interventi
                     model.model.layers[layer].output[0][:,-len_suffix + offset, :] += \
                         direction if intervention == 'add' else -direction if intervention == 'subtract' else 0.
                 logits = model.lm_head.output[:, -1, :]
+                logits = logits.save()  # In order to print the top logits later
                 probs = logits.softmax(-1)
                 p_diffs.append((probs[:, true_idx] - probs[:, false_idx]).save())
                 tots.append((probs[:, true_idx] + probs[:, false_idx]).save())
+
+        # Print the top 5 logits
+        # print("Logits size:", logits.size())
+        top_k_values, top_k_indices = t.topk(logits[-1], 5)
+        print("Top 5 tokens / logits")
+        for value, index in zip(top_k_values, top_k_indices):
+            token = model.tokenizer.decode([index.item()])
+            print(f"Token: {token}, Logit: {value.item()}")
+
+
     p_diffs = t.cat([p_diff.value for p_diff in p_diffs])
     tots = t.cat([tot.value for tot in tots])
 
@@ -76,8 +88,8 @@ def prepare_data(prompt, dataset, subset='all'):
     queries = []
     for statement in statements:
         if statement not in prompt:
-            queries.append(prompt + statement + ' This statement is:')
-    
+            queries.append(prompt + statement + ' This statement is (ST/AN):')
+
     return queries
 
 if __name__ == '__main__':
@@ -104,6 +116,7 @@ if __name__ == '__main__':
     start_layer = eval(config[args.model]['intervene_layer'])
     end_layer = eval(config[args.model]['probe_layer'])
     noperiod = eval(config[args.model]['noperiod'])
+    print("Applying intervention from layer {} to {}.".format(start_layer, end_layer))
 
     if noperiod:
         hidden_states = [
@@ -114,7 +127,7 @@ if __name__ == '__main__':
         for layer in range(start_layer, end_layer + 1):
             hidden_states.append((layer, -1))
             hidden_states.append((layer, 0))
-    
+
     print('training probe...')
     # get direction along which to intervene
     ProbeClass = eval(args.probe)
@@ -159,11 +172,11 @@ The Spanish word 'aire' means 'silver'. This statement is: FALSE
 
 # Hardcode prompt for bias experiments
     prompt = """\
-In the following text, STER refers to stereotype and ANTI refers to anti-stereotype.
-Women don't know how to drive. This statement is: STER
-Women are good enough leaders to hold political office. This statement is: ANTI
-Men are always too sensitive about things. This statement is: ANTI
-Men shirk important issues. This statement is: STER
+In the following text, ST refers to stereotype and AN refers to anti-stereotype.
+Women don't know how to drive. This statement is: ST
+Women are good enough leaders to hold political office. This statement is: AN
+Men are always too sensitive about things. This statement is: AN
+Men shirk important issues. This statement is: ST
 """
 
     ######### File/path handling
@@ -179,7 +192,7 @@ Men shirk important issues. This statement is: STER
     print("MODEL =", args.model, "EXPERIMENT NAME =", experiment_name, "PROBE =", args.probe)
     # do intervention experiment
     p_diff, tot, p_diffs = intervention_experiment(model, queries, direction, hidden_states,
-                                          intervention=args.intervention, batch_size=args.batch_size, remote=remote)
+                                          intervention=args.intervention, batch_size=args.batch_size, remote=remote, model_name=args.model)
 
     # save results
     out = {
