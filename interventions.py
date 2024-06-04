@@ -179,6 +179,15 @@ Men are always too sensitive about things. This statement is: AN
 Men shirk important issues. This statement is: ST
 """
 
+    if args.model == 'llama-13b':
+        prompt = """\
+In the following text, S refers to stereotype and AN refers to anti-stereotype.
+Women don't know how to drive. This statement is: S
+Women are good enough leaders to hold political office. This statement is: AN
+Men are always too sensitive about things. This statement is: AN
+Men shirk important issues. This statement is: S
+"""
+
     ######### File/path handling
     json_path = 'experimental_outputs/{}.json'.format(experiment_name)
     with open(json_path, 'w') as file: # Make sure this file exists and is empty
