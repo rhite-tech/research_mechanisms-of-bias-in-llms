@@ -16,13 +16,13 @@ rsync -a --exclude='.git' $HOME/geometry-of-truth /scratch-shared/$USER/
 cd /scratch-shared/$USER/geometry-of-truth
 
 # Define experiment name
-EXPERIMENT_NAME="8b_exp3_LR"
+EXPERIMENT_NAME="70b_likely_LR"
 
 # Run command
-#python interventions.py --model llama-3-8b --device remote --experiment_name ${EXPERIMENT_NAME}_NonePos --train_datasets experiment_inter_stereoset --val_dataset experiment_cps --probe MMProbe --intervention none --subset true
-#python interventions.py --model llama-3-8b --device remote --experiment_name ${EXPERIMENT_NAME}_NoneNeg --train_datasets experiment_inter_stereoset --val_dataset experiment_cps --probe MMProbe --intervention none --subset false
-python interventions.py --model llama-3-8b --device remote --experiment_name ${EXPERIMENT_NAME}_AddNeg --train_datasets experiment_inter_stereoset --val_dataset experiment_cps --probe LRProbe --intervention add --subset false
-python interventions.py --model llama-3-8b --device remote --experiment_name ${EXPERIMENT_NAME}_SubPos --train_datasets experiment_inter_stereoset --val_dataset experiment_cps --probe LRProbe --intervention subtract --subset true
+#python interventions.py --model llama-3-70b --device remote --experiment_name ${EXPERIMENT_NAME}_NonePos --train_datasets likely --val_dataset experiment_cps --probe MMProbe --intervention none --subset true
+#python interventions.py --model llama-3-70b --device remote --experiment_name ${EXPERIMENT_NAME}_NoneNeg --train_datasets likely --val_dataset experiment_cps --probe MMProbe --intervention none --subset false
+python interventions.py --model llama-3-70b --device remote --experiment_name ${EXPERIMENT_NAME}_AddNeg --train_datasets likely --val_dataset experiment_cps --probe LRProbe --intervention add --subset false
+python interventions.py --model llama-3-70b --device remote --experiment_name ${EXPERIMENT_NAME}_SubPos --train_datasets likely --val_dataset experiment_cps --probe LRProbe --intervention subtract --subset true
 
 # Copy output directory from scratch to correct folder in home
 cp /scratch-shared/tpungas/geometry-of-truth/experimental_outputs/${EXPERIMENT_NAME}* $HOME/geometry-of-truth/experimental_outputs/intervention/
