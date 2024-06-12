@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 2. Add any .csv datasets you would like to work with to the `datasets` folder. See `datasets/experiment_cps.csv` for how to format the files.
 3. If you are using locally stored language models, specify the absolute path for the directory with model weights in `config.ini`. You can also use HuggingFace repos. 
-4. Denerate activations for the datasets you'd like to work with using a command like
+4. Generate activations for the datasets you'd like to work with using a command like
 ```
 python generate_acts.py --model llama-13b --layers 8 10 12 --datasets cities neg_cities --device cuda:0
 ```
