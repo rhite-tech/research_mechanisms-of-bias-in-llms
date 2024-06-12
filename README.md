@@ -23,6 +23,7 @@ Note that it is also possible to use [NNsight](https://nnsight.net/) to run infe
 ## Files
 This directory contains the following files:
 * `acts`: the activations will be saved to this directory
+* `data_processing`: StereoSet and CrowS-Pairs data, including processing scripts
 * `datasets`: .csv files with labeled data
 * `experimental_outputs`: the results will be saved to this directory
 * `figures`: all the figures produced in the thesis
