@@ -1,5 +1,5 @@
 # Unveiling the Mechanisms of Bias
-This repository corresponds to the Master's thesis in Artificial Intelligence by Tarmo Pungas, at University of Amsterdam, 2024.
+This repository corresponds to the Master's thesis in Artificial Intelligence by Tarmo Pungas, at University of Amsterdam, 2024. This research is part of a project on Bias Identification methods initiated by Rhite and has been guided and supervised by Rhite and the University of Amsterdam.
 
 The repo is based on the [code](https://github.com/saprmarks/geometry-of-truth/tree/nnsight) from the paper <a href="https://arxiv.org/abs/2310.06824">*The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets*</a> by Samuel Marks and Max Tegmark. We thank the authors for making their code publicly available.
 
