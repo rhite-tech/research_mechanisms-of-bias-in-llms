@@ -3,6 +3,12 @@ This repository corresponds to the Master's thesis in Artificial Intelligence by
 
 The repo is based on the [code](https://github.com/saprmarks/geometry-of-truth/tree/nnsight) from the paper <a href="https://arxiv.org/abs/2310.06824">*The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets*</a> by Samuel Marks and Max Tegmark. We thank the authors for making their code publicly available.
 
+**⚠️ Note on Code Quality**
+
+Please note that this code was developed as part of a thesis project and, due to time constraints, has not undergone extensive optimization or formal quality checks. While it serves the primary purpose of supporting the research findings, it may not meet industry standards in terms of performance, maintainability, security or robustness.
+
+Users are welcome to use and explore the code, but we recommend careful consideration and further testing before applying it in any production environment. Contributions for improvements or optimizations are also encouraged.
+
 ## Set-up
 1. Navigate to the location that you want to clone this repo to, clone and enter the repo, and install the requirements.
 ```
